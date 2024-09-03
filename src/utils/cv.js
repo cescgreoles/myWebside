@@ -236,7 +236,7 @@ export const CV = {
       },
       {
         name: "Oriol Balaguer",
-        date: "Enero 2023 - Febrero 2024",
+        date: "",
         where: "Panadería Oriol Balaguer, Barcelona",
         description:
           "Control de redes sociales. Logística y venta de productos a las tiendas.",

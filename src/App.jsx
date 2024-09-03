@@ -42,10 +42,10 @@ function LanguageToggleButton() {
 
 function DownloadButton() {
   const handleDownload = () => {
-    const fileUrl = `../public/cg-cv2024.pdf`;
+    const fileUrl = `../publiccvCescEnglish.pdf`;
     const link = document.createElement("a");
     link.href = fileUrl;
-    link.download = "CV.pdf";
+    link.download = "cvCescEnglish.pdf";
     link.click();
   };
 
