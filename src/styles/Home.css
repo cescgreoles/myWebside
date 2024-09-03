@@ -1,0 +1,229 @@
+.section {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.language-selector {
+  margin: 20px 0;
+  text-align: right;
+}
+
+.language-selector select {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.cv-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cv-details h2 {
+  font-size: 2em;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cv-details p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #666;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cv-projects {
+  margin-top: 40px;
+}
+
+.cv-projects h2 {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.projects-grid {
+  display: grid;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.project-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-item h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin: 10px 0;
+}
+
+.project-item p {
+  font-size: 1em;
+  color: #666;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+
+.project-item a {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.project-item a:hover {
+  background-color: #0056b3;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 1000px;
+  background-color: white; /* Fondo blanco */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  padding: 20px;
+}
+
+.popup.open {
+  display: block;
+}
+
+.popup-content {
+  position: relative;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.popup-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 2em;
+  color: black;
+}
+
+.popup-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.popup-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.popup-text {
+  color: black;
+}
+
+.popup-text h2,
+.popup-text h3 {
+  margin: 0;
+}
+
+.popup-text h2 {
+  font-size: 1.8em;
+}
+
+.popup-text h3 {
+  font-size: 1.5em;
+}
+
+.popup-text p {
+  font-size: 1em;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+.popup-text a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+@media (min-width: 768px) {
+  .popup-inner {
+    flex-direction: row;
+  }
+
+  .popup-image {
+    width: 50%;
+    height: auto;
+  }
+
+  .popup-text {
+    width: 50%;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .projects-grid {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+
+@media (max-width: 767px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-item {
+    border-radius: 0;
+  }
+
+  .popup {
+    width: 95%;
+  }
+
+  .project-image {
+    height: 150px;
+  }
+}
