@@ -120,6 +120,7 @@
 
 .popup.open {
   display: block;
+  border: 1px solid black;
 }
 
 .popup-content {

@@ -9,6 +9,7 @@ import img8 from "../assets/memory.png";
 import img9 from "../assets/optica.png";
 import img10 from "../assets/ideas.png";
 import img11 from "../assets/quiz.png";
+import img12 from "../assets/raya.png";
 
 export const CV = {
   // about: {
@@ -138,6 +139,18 @@ export const CV = {
         en: "A front-end project for Ideas para cenar, featuring recipes and meal ideas.",
       },
       img: img10,
+    },
+    {
+      name1: {
+        es: "3 en raya",
+        en: "3 in a row",
+      },
+      url: "https://3-raya-tan.vercel.app/",
+      description: {
+        es: "Se trata de un simple proyecto hecho con react vite para prácticar la logica de programacion y los estados globales.",
+        en: "It is a simple project made with react vite to practice programming logic and global states.",
+      },
+      img: img12,
     },
     {
       name1: {
