@@ -42,11 +42,13 @@ function LanguageToggleButton() {
 
 function DownloadButton() {
   const handleDownload = () => {
-    const fileUrl = `../publiccvCescEnglish.pdf`;
+    const fileUrl = `/cvCescEnglish.pdf`;
     const link = document.createElement("a");
     link.href = fileUrl;
     link.download = "cvCescEnglish.pdf";
+    document.body.appendChild(link);
     link.click();
+    document.body.removeChild(link);
   };
 
   return (
