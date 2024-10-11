@@ -45,9 +45,7 @@ const Home = () => {
         </div>
       </div>
       <div className="cv-projects">
-        <h2>
-          {language === "es" ? "Proyectos Bootcamp" : "Bootcamp Projects"}
-        </h2>
+        <h2>{language === "es" ? "Más proyectos" : "More Projects"}</h2>
         <div className="projects-grid">
           {CV.portfolio.map((project, index) => (
             <div
