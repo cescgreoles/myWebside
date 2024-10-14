@@ -10,35 +10,9 @@ import img9 from "../assets/optica.png";
 import img10 from "../assets/ideas.png";
 import img11 from "../assets/quiz.png";
 import img12 from "../assets/raya.png";
+import img13 from "../assets/yourBank.png";
 
 export const CV = {
-  // about: {
-  //   name: "FRANCESC",
-  //   lastName: "GREOLES",
-  //   middleName: "BALDRICH",
-  //   img: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
-  //   fullName: "Francesc Greoles",
-  //   city: "Barcelona",
-  //   email: "fgreoles@gmail.com",
-  //   birthDate: "25 . 03 . 1996",
-  //   profesion: "Full Stack Developer",
-  //   phone: "677035168",
-  //   image: "",
-  //   gitHub: "https://github.com/cescgreoles",
-  //   linkedin: "https://www.linkedin.com/in/francesc-greoles-a215a5152/",
-  // },
-  // aboutMe: [
-  //   {
-  //     info: "My name is Cesc Greoles. During the last years I have been studying Marketing and also a postgraduate degree in Community manager & E-commerce. But now I finally wanted to dedicate myself to web development",
-  //   },
-  //   {
-  //     info: "I am a person with ambition, dedication and great ability to work in a group. I dedicate a lot of effort to my work because it is very important to me.",
-  //   },
-  //   {
-  //     info: "Finally, I am a big fan of motorsport, soccer and running.",
-  //   },
-  // ],
-
   portfolio: [
     {
       name: {
@@ -116,6 +90,18 @@ export const CV = {
   ],
 
   portfolio1: [
+    {
+      name1: {
+        es: "YourBank",
+        en: "YourBank",
+      },
+      url: "https://bank-sigma-two.vercel.app/",
+      description: {
+        es: "Next JS, React JS, Firebase. Este proyecto es una plataforma bancaria en línea diseñada para ayudar a los usuarios a gestionar sus finanzas personales. Ofrecemos herramientas que permiten a los usuarios calcular sus gastos, gestionar sus ingresos y visualizar gráficos de rendimiento financiero. Además, los usuarios pueden abrir cuentas bancarias directamente en la plataforma, realizar pagos, y aprovechar funciones avanzadas como la creación de presupuestos y reportes financieros. Nuestra aplicación está diseñada para ser intuitiva y fácil de usar, brindando a los usuarios una experiencia de banca digital completa y segura.",
+        en: "Next JS, React JS, Firebase.This project is an online banking platform designed to help users manage their personal finances. We offer tools that allow users to calculate expenses, manage their income, and visualize financial performance charts. Additionally, users can open bank accounts directly on the platform, make payments, and take advantage of advanced features such as budget creation and financial reports. Our app is designed to be intuitive and easy to use, providing users with a complete and secure digital banking experience.",
+      },
+      img: img13,
+    },
     {
       name1: {
         es: "Óptica Carrilet",

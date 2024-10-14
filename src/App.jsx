@@ -7,8 +7,8 @@ import { useContext } from "react";
 import {
   LanguageProvider,
   LanguageContext,
-} from "../src/Context/LanguageContext"; // Importar el contexto
-import { FaDownload } from "react-icons/fa"; // Icono de descarga
+} from "../src/Context/LanguageContext";
+import { FaDownload } from "react-icons/fa";
 
 function App() {
   return (
