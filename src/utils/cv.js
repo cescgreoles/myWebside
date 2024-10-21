@@ -116,10 +116,10 @@ export const CV = {
     },
     {
       name1: {
-        es: "Ideas para cenar",
-        en: "Ideas para cenar",
+        es: "El Sofregit",
+        en: "El Sofregit",
       },
-      url: "https://github.com/cescgreoles/kitchen-friends-front",
+      url: "https://el-sofregit.vercel.app/",
       description: {
         es: "React JS, CSS. Este proyecto front-end está pensado para inspirar a los usuarios con recetas e ideas para la cena. Ofrece una interfaz fácil de usar que permite buscar y filtrar recetas según diferentes criterios. Es ideal para aquellos que buscan una forma rápida de planificar sus comidas diarias.",
         en: "React JS, CSS. This front-end project is designed to inspire users with recipes and dinner ideas. It offers an easy-to-use interface for searching and filtering recipes based on different criteria, perfect for those looking for a quick way to plan their daily meals.",
