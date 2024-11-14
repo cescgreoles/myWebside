@@ -11,6 +11,7 @@ import img10 from "../assets/ideas.png";
 import img11 from "../assets/quiz.png";
 import img12 from "../assets/raya.png";
 import img13 from "../assets/yourBank.png";
+import img14 from "../assets/maria-ts.png";
 
 export const CV = {
   portfolio: [
@@ -90,6 +91,18 @@ export const CV = {
   ],
 
   portfolio1: [
+    {
+      name1: {
+        es: "Maria Torrecillas",
+        en: "Maria Torrecillas",
+      },
+      url: "https://maria-t.vercel.app/",
+      description: {
+        es: "Página con NextJS y TailwindCSS. Responsive. Página de fotografía de Maria Torrecillas.",
+        en: "Page with NextJS and TailwindCSS. Responsive. Photography page by Maria Torrecillas.",
+      },
+      img: img14,
+    },
     {
       name1: {
         es: "YourBank",
