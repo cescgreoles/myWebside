@@ -27,6 +27,24 @@ const Home = () => {
         </p>
       </div>
       <div className="cv-projects">
+        <h2>{language === "es" ? "Pet Projects" : "Pet Projects"}</h2>
+        <div className="projects-grid">
+          {CV.portfolio.map((project, index) => (
+            <div
+              className="project-item"
+              key={index}
+              onClick={() => openPopup(project)}
+            >
+              <img
+                src={project.img}
+                alt={language === "es" ? project.name.es : project.name.en}
+                className="project-image"
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="cv-projects">
         <h2>{language === "es" ? "Mis Proyectos" : "My Projects"}</h2>
         <div className="projects-grid">
           {CV.portfolio1.map((project, index) => (
@@ -44,24 +62,7 @@ const Home = () => {
           ))}
         </div>
       </div>
-      <div className="cv-projects">
-        <h2>{language === "es" ? "Más proyectos" : "More Projects"}</h2>
-        <div className="projects-grid">
-          {CV.portfolio.map((project, index) => (
-            <div
-              className="project-item"
-              key={index}
-              onClick={() => openPopup(project)}
-            >
-              <img
-                src={project.img}
-                alt={language === "es" ? project.name.es : project.name.en}
-                className="project-image"
-              />
-            </div>
-          ))}
-        </div>
-      </div>
+
       {selectedProject && (
         <div className="popup open">
           <div className="popup-content">

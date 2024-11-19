@@ -1,9 +1,3 @@
-import img1 from "../assets/poke.png";
-import img2 from "../assets/got.png";
-import img3 from "../assets/1.png";
-import img4 from "../assets/react.png";
-import img5 from "../assets/messi.png";
-import img6 from "../assets/6.png";
 import img7 from "../assets/liga.png";
 import img8 from "../assets/memory.png";
 import img9 from "../assets/optica.png";
@@ -12,85 +6,10 @@ import img11 from "../assets/quiz.png";
 import img12 from "../assets/raya.png";
 import img13 from "../assets/yourBank.png";
 import img14 from "../assets/maria-ts.png";
+import img15 from "../assets/caixabank.png";
 
 export const CV = {
   portfolio: [
-    {
-      name: {
-        es: "PokeApi",
-        en: "PokeApi",
-      },
-      url: "https://pokeapi-ashen.vercel.app/",
-      description: {
-        es: "Un proyecto utilizando la API de Pokémon para obtener y mostrar datos de Pokémon.",
-        en: "A project using the Pokémon API to fetch and display Pokémon data.",
-      },
-      img: img1,
-    },
-    {
-      name: {
-        es: "GameOfThrones",
-        en: "GameOfThrones",
-      },
-      url: "https://gotapi-eight.vercel.app/",
-      description: {
-        es: "Un proyecto utilizando la API de Game of Thrones para presentar información sobre personajes y episodios.",
-        en: "A project utilizing the Game of Thrones API to present character and episode information.",
-      },
-      img: img2,
-    },
-    {
-      name: {
-        es: "Back-Node",
-        en: "Back-Node",
-      },
-      url: "https://github.com/florenpedrajas/PROYECTO-FINAL-NODE",
-      description: {
-        es: "Un proyecto backend en Node.js para manejar diversas funcionalidades y operaciones con bases de datos.",
-        en: "A Node.js backend project for handling various functionalities and database operations.",
-      },
-      img: img3,
-    },
-    {
-      name: {
-        es: "React Records",
-        en: "React Records",
-      },
-      url: "https://react-records-2wl2l4cs6-cescgreoles.vercel.app",
-      url1: "",
-      description: {
-        es: "Un proyecto en React para gestionar y mostrar registros con diversas funcionalidades.",
-        en: "A React project for managing and displaying records with various functionalities.",
-      },
-      img: img4,
-    },
-    {
-      name: {
-        es: "Argentina",
-        en: "Argentina",
-      },
-      url: "https://github.com/cescgreoles/frontArgentinaA",
-      description: {
-        es: "Un proyecto front-end que muestra información relacionada con Argentina.",
-        en: "A front-end project showcasing information related to Argentina.",
-      },
-      img: img5,
-    },
-    {
-      name: {
-        es: "Simplemente",
-        en: "Simplemente",
-      },
-      url: "https://github.com/eduardmos/front-enfermedades-final",
-      description: {
-        es: "Un proyecto final centrado en mostrar información sobre enfermedades.",
-        en: "A final project focused on displaying information about diseases.",
-      },
-      img: img6,
-    },
-  ],
-
-  portfolio1: [
     {
       name1: {
         es: "Maria Torrecillas",
@@ -105,18 +24,6 @@ export const CV = {
     },
     {
       name1: {
-        es: "YourBank",
-        en: "YourBank",
-      },
-      url: "https://bank-sigma-two.vercel.app/",
-      description: {
-        es: "Next JS, React JS, Firebase. Este proyecto es una plataforma bancaria en línea diseñada para ayudar a los usuarios a gestionar sus finanzas personales. Ofrecemos herramientas que permiten a los usuarios calcular sus gastos, gestionar sus ingresos y visualizar gráficos de rendimiento financiero. Además, los usuarios pueden abrir cuentas bancarias directamente en la plataforma, realizar pagos, y aprovechar funciones avanzadas como la creación de presupuestos y reportes financieros. Nuestra aplicación está diseñada para ser intuitiva y fácil de usar, brindando a los usuarios una experiencia de banca digital completa y segura.",
-        en: "Next JS, React JS, Firebase. This project is an online banking platform designed to help users manage their personal finances. We offer tools that allow users to calculate expenses, manage their income, and visualize financial performance charts. Additionally, users can open bank accounts directly on the platform, make payments, and take advantage of advanced features such as budget creation and financial reports. Our app is designed to be intuitive and easy to use, providing users with a complete and secure digital banking experience.",
-      },
-      img: img13,
-    },
-    {
-      name1: {
         es: "Óptica Carrilet",
         en: "Óptica Carrilet",
       },
@@ -127,6 +34,34 @@ export const CV = {
       },
       img: img9,
     },
+    {
+      name1: {
+        es: "8ena Posición en el Hackathon de CaixaBank",
+        en: "8th Position in the CaixaBank Hackathon",
+      },
+      url: "",
+      description: {
+        es: "",
+        en: "",
+      },
+      img: img15,
+    },
+  ],
+
+  portfolio1: [
+    {
+      name1: {
+        es: "YourBank",
+        en: "YourBank",
+      },
+      url: "https://bank-sigma-two.vercel.app/",
+      description: {
+        es: "Next JS, React JS, Firebase. Este proyecto es una plataforma bancaria en línea diseñada para ayudar a los usuarios a gestionar sus finanzas personales. Ofrecemos herramientas que permiten a los usuarios calcular sus gastos, gestionar sus ingresos y visualizar gráficos de rendimiento financiero. Además, los usuarios pueden abrir cuentas bancarias directamente en la plataforma, realizar pagos, y aprovechar funciones avanzadas como la creación de presupuestos y reportes financieros. Nuestra aplicación está diseñada para ser intuitiva y fácil de usar, brindando a los usuarios una experiencia de banca digital completa y segura.",
+        en: "Next JS, React JS, Firebase. This project is an online banking platform designed to help users manage their personal finances. We offer tools that allow users to calculate expenses, manage their income, and visualize financial performance charts. Additionally, users can open bank accounts directly on the platform, make payments, and take advantage of advanced features such as budget creation and financial reports. Our app is designed to be intuitive and easy to use, providing users with a complete and secure digital banking experience.",
+      },
+      img: img13,
+    },
+
     {
       name1: {
         es: "El Sofregit",
