@@ -1,106 +1,101 @@
 .about-me {
+  color: #000;
+  background-color: #fff;
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
-}
-
-.section {
-  margin-bottom: 60px;
+  margin-top: 1em;
 }
 
 .section-title {
-  font-size: 2em;
-  color: #333;
-  margin-bottom: 20px;
+  font-size: 1.8rem;
   text-align: center;
-}
-.language-selector {
-  margin: 30px 0;
-  text-align: right;
-}
 
-.language-selector select {
-  padding: 5px;
-  font-size: 16px;
-}
-
-.card {
-  display: flex;
-  align-items: center;
-  background: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
+  padding-bottom: 10px;
   margin-bottom: 20px;
-  transition: transform 0.3s, box-shadow 0.3s;
+  text-transform: uppercase;
 }
 
-.card:hover {
-  transform: scale(1.03);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
-
-.card-icon {
-  font-size: 3em;
-  color: black;
-  padding: 20px;
-  background: transparent;
-  width: 80px;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.card-content {
-  padding: 20px;
-  flex: 1;
-}
-
-.card-title {
-  font-size: 1.6em;
-  color: #333;
-  margin: 0 0 10px 0;
-}
-
-.card-description,
-.card-date,
-.card-location,
-.card-info {
-  font-size: 1em;
-  color: #666;
-  margin: 5px 0;
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+  justify-items: center;
 }
 
 .skill-card {
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9rem;
   background: #f9f9f9;
+  width: 120px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease-in-out, background 0.2s ease-in-out;
 }
 
-.work-card {
-  background: #f9f9f9;
+.skill-card:hover {
+  transform: scale(1.05);
+  background: #eaeaea;
 }
 
-.education-card {
+.work-section .work-card,
+.education-section .education-card {
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 15px;
   background: #f9f9f9;
+  transition: background 0.2s ease-in-out;
 }
 
-@media (max-width: 767px) {
-  .card {
-    flex-direction: column;
-    text-align: center;
+.work-card:hover,
+.education-card:hover {
+  background: #eaeaea;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.card-date,
+.card-location,
+.card-description,
+.card-info {
+  font-size: 0.9rem;
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  .skills-container {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
 
-  .card-icon {
-    width: 60px;
-    height: 60px;
-    font-size: 2.5em;
-  }
-
-  .card-content {
-    padding: 15px;
+  .section-title {
+    font-size: 1.5rem;
   }
 
   .card-title {
-    font-size: 1.4em;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .about-me {
+    padding: 10px;
+  }
+
+  .section-title {
+    font-size: 1.2rem;
   }
 }

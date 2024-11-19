@@ -27,7 +27,7 @@ const Home = () => {
         </p>
       </div>
       <div className="cv-projects">
-        <h2>{language === "es" ? "Pet Projects" : "Pet Projects"}</h2>
+        <h2>{language === "es" ? "Proyectos" : "Projects"}</h2>
         <div className="projects-grid">
           {CV.portfolio.map((project, index) => (
             <div
@@ -37,7 +37,7 @@ const Home = () => {
             >
               <img
                 src={project.img}
-                alt={language === "es" ? project.name.es : project.name.en}
+                alt={language === "es" ? project.name1.es : project.name1.en}
                 className="project-image"
               />
             </div>
@@ -45,7 +45,7 @@ const Home = () => {
         </div>
       </div>
       <div className="cv-projects">
-        <h2>{language === "es" ? "Mis Proyectos" : "My Projects"}</h2>
+        <h2>{language === "es" ? "Más Proyectos" : "More Projects"}</h2>
         <div className="projects-grid">
           {CV.portfolio1.map((project, index) => (
             <div

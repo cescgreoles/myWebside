@@ -127,10 +127,17 @@ export const CV = {
   education: {
     es: [
       {
+        name: "Curso Avanzado de React",
+        date: "2024 - Actualidad",
+        where: "Imagina",
+        info: "Actualmente estoy cursando un curso avanzado para profundizar mis habilidades en React, incluyendo hooks, optimización y patrones avanzados.",
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Udemy_logo.svg/1024px-Udemy_logo.svg.png",
+      },
+      {
         name: "Desarrollador Full Stack",
         date: "2022",
         where: "Upgrade HUB",
-        info: "Durante el bootcamp aprendí el lenguaje Javascript utilizando varios frameworks, incluyendo React, Node y Angular.",
+        info: "Durante el curso aprendí el lenguaje Javascript utilizando varios frameworks, incluyendo React, Node y Angular.",
         img: "https://coursereport-s3-production.global.ssl.fastly.net/uploads/school/logo/598/original/LOGOTIPO_UPGRADE-01.png",
       },
       {
@@ -150,10 +157,17 @@ export const CV = {
     ],
     en: [
       {
+        name: "Advanced React Course",
+        date: "2024 - Present",
+        where: "Imagina",
+        info: "Currently enrolled in an advanced course to further develop my skills in React, including hooks, optimization, and advanced patterns.",
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Udemy_logo.svg/1024px-Udemy_logo.svg.png",
+      },
+      {
         name: "Full Stack Developer",
         date: "2022",
         where: "Upgrade HUB",
-        info: "During the bootcamp I learned the Javascript language using several frameworks including React, Node, and Angular.",
+        info: "During the course I learned the Javascript language using several frameworks including React, Node, and Angular.",
         img: "https://coursereport-s3-production.global.ssl.fastly.net/uploads/school/logo/598/original/LOGOTIPO_UPGRADE-01.png",
       },
       {
@@ -172,8 +186,16 @@ export const CV = {
       },
     ],
   },
+
   experience: {
     es: [
+      {
+        name: "TAI Smart Factory",
+        date: "Febrero 2024 - Septiembre 2024",
+        where: "Sant Cugat del Vallés",
+        description:
+          "Durante mis 6 meses como desarrollador de software en TAI, mi rol principal consistió en diseñar e implementar múltiples interfaces que permitían a los clientes buscar y acceder a información vital sobre sus empresas, maquinaria y datos industriales. Además, me enfrenté al desafío de refactorizar una base de código heredada de JavaScript a React, mejorando significativamente el rendimiento y la mantenibilidad de las aplicaciones. Esta experiencia me permitió perfeccionar mis habilidades en desarrollo front-end y proporcionó valiosas perspectivas sobre cómo transformar los requisitos del cliente en interfaces de software eficientes y amigables.",
+      },
       {
         name: "Oriol Balaguer",
         date: "Diciembre 2019 - Septiembre 2022",
@@ -188,15 +210,15 @@ export const CV = {
         description:
           "Control de redes sociales. Logística y venta de productos a las tiendas.",
       },
-      {
-        name: "TAI Smart Factory",
-        date: "Febrero 2024 - Septiembre 2024",
-        where: "Sant Cugat del Vallés",
-        description:
-          "Durante mis 6 meses como desarrollador de software en TAI, mi rol principal consistió en diseñar e implementar múltiples interfaces que permitían a los clientes buscar y acceder a información vital sobre sus empresas, maquinaria y datos industriales. Además, me enfrenté al desafío de refactorizar una base de código heredada de JavaScript a React, mejorando significativamente el rendimiento y la mantenibilidad de las aplicaciones. Esta experiencia me permitió perfeccionar mis habilidades en desarrollo front-end y proporcionó valiosas perspectivas sobre cómo transformar los requisitos del cliente en interfaces de software eficientes y amigables.",
-      },
     ],
     en: [
+      {
+        name: "TAI Smart Factory",
+        date: "February 2024 - September 2024",
+        where: "Sant Cugat del Vallés",
+        description:
+          "During my 6 months as a software developer at TAI, my main role consisted of designing and implementing multiple interfaces that allowed customers to search and access vital information about their companies, machinery and industrial data. In addition, I faced the challenge of refactoring a legacy code base from JavaScript to React, significantly improving application performance and maintainability. This experience allowed me to hone my front-end development skills and provided valuable insights on how to transform customer requirements into efficient and user-friendly software interfaces.",
+      },
       {
         name: "Oriol Balaguer",
         date: "December 2019 - September 2022",
@@ -211,69 +233,45 @@ export const CV = {
         description:
           "Social media management. Logistics and sales of products to stores.",
       },
-      {
-        name: "TAI Smart Factory",
-        date: "February 2024 - September 2024",
-        where: "Sant Cugat del Vallés",
-        description:
-          "During my 6 months as a software developer at TAI, my main role consisted of designing and implementing multiple interfaces that allowed customers to search and access vital information about their companies, machinery and industrial data. In addition, I faced the challenge of refactoring a legacy code base from JavaScript to React, significantly improving application performance and maintainability. This experience allowed me to hone my front-end development skills and provided valuable insights on how to transform customer requirements into efficient and user-friendly software interfaces.",
-      },
     ],
   },
   skills: {
     es: [
-      {
-        name: "Git",
-        img: "",
-        description:
-          "Aprender a usar stash, log y diff, realizar fusiones de ramas locales (merge), resolver conflictos de manera consistente, entender las referencias de Git (HEAD, TAG), conocer git-hooks y su utilidad.",
-      },
-      {
-        name: "Angular JS",
-        img: "",
-        description:
-          "Saber hacer CRUD completo, Formularios, Servicios y Typescript.",
-      },
-      {
-        name: "Node JS",
-        img: "",
-        description:
-          "Creación de colecciones, relación de colecciones entre ellas. Usuarios, registro, inicio de sesión, cierre de sesión. Desplegar el servidor.",
-      },
-      {
-        name: "React JS",
-        img: "",
-        description:
-          "Creación de un proyecto, uso de componentes reutilizables, react-router-dom, formularios con react-hook-forms, uso de redux con gestión de 3 estados. Realización del CRUD completo. Saber gestionar des del Front varias apis de insfraestructuras complejas de software",
-      },
+      { name: "Git", img: "" },
+      { name: "Node.js", img: "" },
+      { name: "React.js", img: "" },
+      { name: "Next.js", img: "" },
+      { name: "JavaScript", img: "" },
+      { name: "TypeScript", img: "" },
+      { name: "HTML", img: "" },
+      { name: "CSS", img: "" },
+      { name: "SASS", img: "" },
+      { name: "Tailwind CSS", img: "" },
+      { name: "MongoDB", img: "" },
+      { name: "MySQL", img: "" },
+      { name: "React Hooks", img: "" },
+      { name: "Context API", img: "" },
+      { name: "API REST", img: "" },
     ],
     en: [
-      {
-        name: "Git",
-        img: "",
-        description:
-          "Learn how to use stash, log, and diff, perform local branch merges, consistently resolve conflicts, understand Git references (HEAD, TAG), and know git-hooks and their usefulness.",
-      },
-      {
-        name: "Angular JS",
-        img: "",
-        description:
-          "Know how to perform full CRUD, Forms, Services, and Typescript.",
-      },
-      {
-        name: "Node JS",
-        img: "",
-        description:
-          "Creation of collections, relationships between collections. Users, registration, login, logout. Deploy the server.",
-      },
-      {
-        name: "React JS",
-        img: "",
-        description:
-          "Creation of a project, use of reusable components, react-router-dom, forms with react-hook-forms, use of redux with 3-state management. Realization of the complete CRUD. Knowing how to manage from the Front several apis of complex software insfraestructures.",
-      },
+      { name: "Git", img: "" },
+      { name: "Node.js", img: "" },
+      { name: "React.js", img: "" },
+      { name: "Next.js", img: "" },
+      { name: "JavaScript", img: "" },
+      { name: "TypeScript", img: "" },
+      { name: "HTML", img: "" },
+      { name: "CSS", img: "" },
+      { name: "SASS", img: "" },
+      { name: "Tailwind CSS", img: "" },
+      { name: "MongoDB", img: "" },
+      { name: "MySQL", img: "" },
+      { name: "React Hooks", img: "" },
+      { name: "Context API", img: "" },
+      { name: "API REST", img: "" },
     ],
   },
+
   languages: {
     es: [
       {
