@@ -1,124 +1,83 @@
 .navbar {
-  background-color: white;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.navbar-container {
   display: flex;
-  justify-content: space-between;
+  padding: 20px 20px;
+  border-bottom: 0.7px solid black;
   align-items: center;
-  padding: 10px 20px;
-  flex-direction: row-reverse;
 }
 
-.navbar-brand {
+.navbar-name {
+  font-size: 1.8rem;
+  font-weight: normal;
   color: black;
-  font-size: 1.5em;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  text-decoration: underline;
+  margin-right: auto;
 }
 
-.navbar-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.navbar-icons {
   display: flex;
   gap: 20px;
-}
-
-.navbar-item a {
-  color: black;
-  text-decoration: none;
-  padding: 8px 16px;
-  display: block;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.navbar-item a:hover,
-.navbar-item .active {
-  background-color: black;
-  color: white;
-  border-radius: 4px;
-}
-
-.hamburger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-  margin-left: 10px;
-  margin-bottom: 5px;
-}
-
-.bar {
-  height: 3px;
-  width: 25px;
-  background-color: black;
-  margin: 4px 0;
-  transition: 0.4s;
+  justify-content: center;
+  flex-grow: 1;
 }
 
 .navbar-icon {
-  margin-left: 10px;
-  font-size: 1.5em;
   color: black;
-  transition: color 0.3s;
+  font-size: 1.8rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-icon:hover {
+  color: gray;
+}
+
+.navbar-select-container {
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+.page-select {
+  padding: 10px 18px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  transition: background-color 0.3s ease;
+  min-width: 120px;
+  max-width: 180px;
+  width: 100%;
+}
+
+.page-select:hover {
+  background-color: gray;
 }
 
 @media (max-width: 768px) {
-  .navbar-container {
-    justify-content: space-between;
-    flex-direction: row-reverse;
-  }
-
-  .navbar-brand {
-    margin-left: 10px;
-  }
-
-  .navbar-list {
+  .navbar {
     flex-direction: column;
-    position: absolute;
-    top: 60px;
-    right: 0;
-    background-color: white;
+    padding: 15px 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-name {
+    margin: 0;
+  }
+
+  .navbar-icons {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .navbar-select-container {
     width: 100%;
-    display: none;
-    transition: max-height 0.4s ease;
-  }
-
-  .navbar-list.open {
     display: flex;
+    justify-content: center;
     margin-top: 10px;
-    border-bottom: 1px solid black;
   }
 
-  .navbar-item {
-    text-align: center;
-  }
-
-  .navbar-item a {
-    padding: 10px;
-  }
-
-  .hamburger {
-    display: flex;
-  }
-
-  .navbar-menu.open .bar:nth-child(1) {
-    transform: rotate(-45deg) translate(-5px, 6px);
-  }
-
-  .navbar-menu.open .bar:nth-child(2) {
-    opacity: 0;
-  }
-
-  .navbar-menu.open .bar:nth-child(3) {
-    transform: rotate(45deg) translate(-5px, -6px);
+  .page-select {
+    width: 80%;
+    min-width: 150px;
+    max-width: 100%;
   }
 }

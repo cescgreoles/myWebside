@@ -19,35 +19,17 @@ const Home = () => {
     <div className="section">
       <div className="cv-header"></div>
       <div className="cv-details">
-        <h2>&lt;Full Stack Developer/&gt;</h2>
+        <h1>&lt;Full Stack Developer/&gt;</h1>
         <p>
           {language === "es"
-            ? "Soy un desarrollador web con más de un año de experiencia en la creación de páginas web modernas y receptivas, he estado durante un año trabajando con una óptica para el desarrollo de su página web. También tengo experiencia de seis meses en una empresa como desarrollador de software. Allí estuve seis meses y me especialize en Javascript, con los frameworks de React, Node.js. Para cualquier consulta podrás descargar mi CV a la parte inferior de la página"
-            : "I am a web developer with over a year of experience in creating modern and responsive websites, I have been for a year working with an optician for the development of their website. I also have six months experience in a company as a software developer. There I spent six months and specialized in Javascript, with React, Node.js frameworks. For any questions you can download my CV at the bottom of the page."}
+            ? "Soy un desarrollador web con más de dos años de experiencia en la creación de páginas web modernas y receptivas, he estado durante un año trabajando con una óptica para el desarrollo de su página web. También tengo experiencia de seis meses en una empresa como desarrollador de software. Allí estuve seis meses y me especialize en Javascript, con los frameworks de React, Node.js. Para cualquier consulta podrás descargar mi CV a la parte inferior de la página"
+            : "I am a web developer with over two years of experience in creating modern and responsive websites, I have been for a year working with an optician for the development of their website. I also have six months experience in a company as a software developer. There I spent six months and specialized in Javascript, with React, Node.js frameworks. For any questions you can download my CV at the bottom of the page."}
         </p>
       </div>
       <div className="cv-projects">
         <h2>{language === "es" ? "Proyectos" : "Projects"}</h2>
         <div className="projects-grid">
           {CV.portfolio.map((project, index) => (
-            <div
-              className="project-item"
-              key={index}
-              onClick={() => openPopup(project)}
-            >
-              <img
-                src={project.img}
-                alt={language === "es" ? project.name1.es : project.name1.en}
-                className="project-image"
-              />
-            </div>
-          ))}
-        </div>
-      </div>
-      <div className="cv-projects">
-        <h2>{language === "es" ? "Más Proyectos" : "More Projects"}</h2>
-        <div className="projects-grid">
-          {CV.portfolio1.map((project, index) => (
             <div
               className="project-item"
               key={index}

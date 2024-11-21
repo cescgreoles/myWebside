@@ -15,10 +15,10 @@ export const CV = {
         es: "Maria Torrecillas",
         en: "Maria Torrecillas",
       },
-      url: "https://maria-t.vercel.app/",
+      url: "http://www.mariatorrecillas.com",
       description: {
-        es: "Página con NextJS y TailwindCSS. Responsive. Página de fotografía de Maria Torrecillas.",
-        en: "Page with NextJS and TailwindCSS. Responsive. Photography page by Maria Torrecillas.",
+        es: "Desarrollé esta página web utilizando Next.js, React, y TailwindCSS, asegurándome de optimizar al máximo las imágenes subidas a la carpeta public para mejorar el rendimiento y la experiencia del usuario. Además, implementé un sistema de contacto funcional con EmailJS. También configuré el dominio con Ionos y lo vinculé a Vercel para facilitar actualizaciones y despliegues futuros. El resultado es una web completamente responsiva, diseñada para resaltar el talento fotográfico de Maria Torrecillas.",
+        en: "I developed this website using Next.js, React, and TailwindCSS, ensuring optimal image performance by hosting them in the public folder. Additionally, I implemented a functional contact form using EmailJS. The domain was configured with Ionos and linked to Vercel for seamless updates and deployments. The result is a fully responsive website designed to showcase Maria Torrecillas' photography talent.",
       },
       img: img14,
     },
@@ -29,26 +29,23 @@ export const CV = {
       },
       url: "https://www.opticacarrilet.com",
       description: {
-        es: "React JS, CSS. Este es un proyecto web completo que diseñé y desarrollé para Óptica Carrilet, incluyendo desde la estructura del frontend hasta la implementación de un diseño responsivo. El sitio web ofrece información detallada sobre productos y servicios ópticos, y está optimizado para ofrecer una experiencia de usuario fluida tanto en dispositivos móviles como de escritorio.",
-        en: "React JS, CSS. This is a fully designed and developed web project I created for Óptica Carrilet, covering everything from the frontend structure to implementing a responsive design. The website provides detailed information about optical products and services, optimized to deliver a smooth user experience on both mobile and desktop devices.",
+        es: "Un proyecto completo creado con ReactJS y CSS, donde me encargué tanto del diseño como del desarrollo del sitio. La página está optimizada para ser completamente responsiva, asegurando una experiencia fluida en dispositivos móviles y de escritorio. Incluye información detallada sobre productos y servicios ópticos, con un diseño limpio y profesional que refleja la identidad de la óptica.",
+        en: "A complete project created with ReactJS and CSS, where I handled both the design and development of the site. The page is fully responsive, ensuring a smooth experience on mobile and desktop devices. It includes detailed information about optical products and services, with a clean and professional design reflecting the brand's identity.",
       },
       img: img9,
     },
     {
       name1: {
-        es: "8ena Posición en el Hackathon de CaixaBank",
-        en: "8th Position in the CaixaBank Hackathon",
+        es: "Hackathon CaixaBank",
+        en: "CaixaBank Hackathon",
       },
       url: "",
       description: {
-        es: "",
-        en: "",
+        es: "Obtuve el 8º lugar en un hackathon organizado por CaixaBank, donde desarrollé una solución funcional utilizando tecnologías avanzadas como React Hooks, UseContext, Routes, y stores (nanostores). Implementé un CRUD completo, trabajé en el diseño utilizando CSS, y creé una estructura sólida con React. Este proyecto fue un desafío que combinó creatividad, velocidad y habilidades técnicas para lograr un resultado competitivo.",
+        en: "I secured 8th place in a CaixaBank hackathon, where I developed a functional solution using advanced technologies like React Hooks, UseContext, Routes, and stores (nanostores). I implemented a full CRUD, worked on the design using CSS, and created a robust structure with React. This project was a challenge that combined creativity, speed, and technical skills to achieve a competitive result.",
       },
       img: img15,
     },
-  ],
-
-  portfolio1: [
     {
       name1: {
         es: "YourBank",
@@ -56,12 +53,11 @@ export const CV = {
       },
       url: "https://bank-sigma-two.vercel.app/",
       description: {
-        es: "Next JS, React JS, Firebase. Este proyecto es una plataforma bancaria en línea diseñada para ayudar a los usuarios a gestionar sus finanzas personales. Ofrecemos herramientas que permiten a los usuarios calcular sus gastos, gestionar sus ingresos y visualizar gráficos de rendimiento financiero. Además, los usuarios pueden abrir cuentas bancarias directamente en la plataforma, realizar pagos, y aprovechar funciones avanzadas como la creación de presupuestos y reportes financieros. Nuestra aplicación está diseñada para ser intuitiva y fácil de usar, brindando a los usuarios una experiencia de banca digital completa y segura.",
-        en: "Next JS, React JS, Firebase. This project is an online banking platform designed to help users manage their personal finances. We offer tools that allow users to calculate expenses, manage their income, and visualize financial performance charts. Additionally, users can open bank accounts directly on the platform, make payments, and take advantage of advanced features such as budget creation and financial reports. Our app is designed to be intuitive and easy to use, providing users with a complete and secure digital banking experience.",
+        es: "Una plataforma bancaria en línea desarrollada con Next.js, ReactJS y Firebase. Permite a los usuarios gestionar sus finanzas personales con herramientas como cálculos de gastos, gestión de ingresos y gráficos de rendimiento financiero. También incluye funcionalidades avanzadas como apertura de cuentas bancarias, realización de pagos, presupuestos y reportes financieros. Diseñada para ser intuitiva y fácil de usar, la plataforma proporciona una experiencia bancaria digital completa y segura.",
+        en: "An online banking platform developed with Next.js, ReactJS, and Firebase. It allows users to manage their personal finances with tools such as expense calculations, income management, and financial performance charts. It also includes advanced features like account opening, payments, budgeting, and financial reports. Designed to be intuitive and user-friendly, the platform provides a complete and secure digital banking experience.",
       },
       img: img13,
     },
-
     {
       name1: {
         es: "El Sofregit",
@@ -69,20 +65,20 @@ export const CV = {
       },
       url: "https://el-sofregit.vercel.app/",
       description: {
-        es: "React JS, CSS. Este proyecto front-end está pensado para inspirar a los usuarios con recetas e ideas para la cena. Ofrece una interfaz fácil de usar que permite buscar y filtrar recetas según diferentes criterios. Es ideal para aquellos que buscan una forma rápida de planificar sus comidas diarias.",
-        en: "React JS, CSS. This front-end project is designed to inspire users with recipes and dinner ideas. It offers an easy-to-use interface for searching and filtering recipes based on different criteria, perfect for those looking for a quick way to plan their daily meals.",
+        es: "Este proyecto front-end, desarrollado con ReactJS y CSS, inspira a los usuarios con recetas e ideas para la cena. Su interfaz amigable permite buscar y filtrar recetas según diversos criterios, lo que lo hace ideal para planificar comidas diarias de manera rápida y eficiente. El diseño es limpio, intuitivo y completamente responsivo.",
+        en: "This front-end project, developed with ReactJS and CSS, inspires users with recipes and dinner ideas. Its user-friendly interface allows for searching and filtering recipes based on various criteria, making it ideal for quick and efficient daily meal planning. The design is clean, intuitive, and fully responsive.",
       },
       img: img10,
     },
     {
       name1: {
-        es: "3 en raya",
-        en: "3 in a row",
+        es: "3 en Raya",
+        en: "3 in a Row",
       },
       url: "https://3-raya-tan.vercel.app/",
       description: {
-        es: "React Vite. Se trata de un proyecto sencillo donde puedes jugar al clásico juego de 3 en raya, diseñado para mejorar la lógica de programación y la gestión de estados globales en React. Este proyecto es perfecto para aquellos que quieren practicar sus habilidades de desarrollo frontend en un entorno interactivo.",
-        en: "React Vite. This is a simple project where you can play the classic 3 in a row game, designed to improve programming logic and global state management in React. This project is perfect for those looking to practice their front-end development skills in an interactive setting.",
+        es: "Un proyecto interactivo creado con React Vite para jugar al clásico juego de 3 en raya. Este desarrollo se centra en la mejora de la lógica de programación y la gestión de estados globales en React. Es perfecto para practicar habilidades de desarrollo front-end en un entorno divertido e interactivo.",
+        en: "An interactive project created with React Vite to play the classic 3 in a Row game. This development focuses on improving programming logic and global state management in React. It is perfect for practicing front-end development skills in a fun and interactive environment.",
       },
       img: img12,
     },
@@ -93,8 +89,8 @@ export const CV = {
       },
       url: "http://quiz-football.vercel.app",
       description: {
-        es: "React JS, CSS. Quizz Football es una aplicación interactiva de cuestionarios centrada en el fútbol. Los usuarios pueden poner a prueba sus conocimientos sobre el deporte a través de una variedad de preguntas desafiantes. El proyecto incluye una interfaz atractiva y opciones de retroalimentación instantánea para mejorar la experiencia del usuario. Ideal para aficionados al fútbol que deseen aprender más mientras se divierten.",
-        en: "React JS, CSS. Quizz Football is an interactive quiz application focused on football. Users can test their knowledge of the sport through a variety of challenging questions. The project features an engaging interface and instant feedback options to enhance the user experience. It's ideal for football fans looking to learn more while having fun.",
+        es: "Aplicación de cuestionarios centrada en el fútbol, desarrollada con ReactJS y CSS. Los usuarios pueden desafiar sus conocimientos sobre el deporte a través de preguntas variadas. Incluye una interfaz atractiva y opciones de retroalimentación instantánea, proporcionando una experiencia educativa y entretenida para los aficionados al fútbol.",
+        en: "A football-focused quiz application developed with ReactJS and CSS. Users can challenge their knowledge of the sport through a variety of questions. It features an engaging interface and instant feedback options, providing an educational and entertaining experience for football fans.",
       },
       img: img11,
     },
@@ -105,8 +101,8 @@ export const CV = {
       },
       url: "https://laligateam.vercel.app/",
       description: {
-        es: "React JS, API. La Liga Team es una plataforma que proporciona información detallada sobre equipos y jugadores de La Liga española. El proyecto consume datos de una API externa y los presenta de manera organizada y accesible para los usuarios. He trabajado en la integración de la API, así como en el diseño de una interfaz intuitiva que permite explorar estadísticas, resultados y alineaciones de equipos en tiempo real.",
-        en: "React JS, API. La Liga Team is a platform that provides detailed information about teams and players from the Spanish La Liga. The project consumes data from an external API and presents it in an organized and accessible manner for users. I worked on API integration as well as designing an intuitive interface that allows users to explore statistics, results, and team lineups in real-time.",
+        es: "Desarrollé esta plataforma con ReactJS y una API externa para proporcionar información detallada sobre equipos y jugadores de La Liga española. La página organiza datos como estadísticas, resultados y alineaciones en tiempo real, ofreciendo una experiencia de usuario intuitiva y funcional. Trabajé tanto en la integración de la API como en el diseño de una interfaz atractiva y accesible.",
+        en: "I developed this platform with ReactJS and an external API to provide detailed information about teams and players from the Spanish La Liga. The page organizes data like statistics, results, and real-time lineups, offering an intuitive and functional user experience. I worked on both API integration and designing an attractive, accessible interface.",
       },
       img: img7,
     },
@@ -117,8 +113,8 @@ export const CV = {
       },
       url: "https://memory-blond-kappa.vercel.app/",
       description: {
-        es: "React JS. Magic Memory es un juego de memoria diseñado para desafiar las habilidades de los usuarios en la retención y el reconocimiento de patrones. Los jugadores deben emparejar cartas dentro de un límite de tiempo, lo que añade un elemento de presión. Este proyecto combina diversión y aprendizaje, ayudando a los usuarios a mejorar sus capacidades cognitivas a través de una experiencia de juego interactiva.",
-        en: "React JS. Magic Memory is a memory game designed to challenge users' skills in retention and pattern recognition. Players must match cards within a time limit, adding an element of pressure. This project combines fun and learning, helping users improve their cognitive abilities through an interactive gaming experience.",
+        es: "Un juego de memoria desarrollado con ReactJS para desafiar las habilidades cognitivas de los usuarios. Los jugadores deben emparejar cartas dentro de un límite de tiempo, añadiendo un elemento de presión. Este proyecto combina aprendizaje y diversión, ayudando a los usuarios a mejorar su retención y reconocimiento de patrones de manera interactiva.",
+        en: "A memory game developed with ReactJS to challenge users' cognitive skills. Players must match cards within a time limit, adding an element of pressure. This project combines learning and fun, helping users improve retention and pattern recognition in an interactive way.",
       },
       img: img8,
     },
