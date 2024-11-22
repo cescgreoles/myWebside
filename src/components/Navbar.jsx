@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import { FaGithub, FaLinkedin, FaEnvelope, FaUser } from "react-icons/fa";
 import "../styles/Navbar.css";
 import { LanguageContext } from "../Context/LanguageContext";
-import ProfilePopup from "../components/ProfilePopup";
+import ProfilePopUp from "../components/ProfilePopUp";
 
 function Navbar() {
   const { language } = useContext(LanguageContext);
@@ -34,7 +34,7 @@ function Navbar() {
           <FaUser size={24} color="black" />
         </button>
 
-        {showPopup && <ProfilePopup onClose={handleClosePopup} />}
+        {showPopup && <ProfilePopUp onClose={handleClosePopup} />}
       </div>
 
       <div className="navbar-icons">
