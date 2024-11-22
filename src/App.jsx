@@ -22,6 +22,7 @@ function App() {
               <Route path="/aboutMe" element={<AboutMe />} />
             </Routes>
           </div>
+
           <LanguageToggleButton />
           <DownloadButton />
         </div>

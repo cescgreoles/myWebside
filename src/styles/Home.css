@@ -64,7 +64,7 @@ p {
   display: block;
 }
 
-.popup {
+.custom-popup {
   position: fixed;
   top: 0;
   left: 0;
@@ -80,15 +80,15 @@ p {
   transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
-.popup.open {
+.custom-popup.open {
   opacity: 1;
   visibility: visible;
 }
 
-.popup-content {
+.custom-popup-content {
   background-color: #ffffff;
   border-radius: 10px;
-  max-width: 600px;
+  max-width: 800px;
   width: 90%;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -108,35 +108,35 @@ p {
   cursor: pointer;
 }
 
-.popup-inner {
+.custom-popup-inner {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.popup-image {
+.custom-popup-image {
   width: 80%;
-  max-width: 300px;
+  max-width: 350px;
   margin-bottom: 20px;
   border-radius: 10px;
   border: 1px solid black;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.popup-text h2 {
+.custom-popup-text h2 {
   font-size: 1.8rem;
   color: #000000;
   margin-bottom: 10px;
 }
 
-.popup-text p {
+.custom-popup-text p {
   font-size: 1rem;
   line-height: 1.5;
   color: #2c3e50;
   margin-bottom: 20px;
 }
 
-.popup-text a {
+.custom-popup-text a {
   text-decoration: none;
   color: #ffffff;
   background-color: black;
@@ -146,13 +146,10 @@ p {
   transition: background-color 0.3s ease;
 }
 
-.popup-text a:hover {
+.custom-popup-text a:hover {
   background-color: #333333;
 }
 
-/* --- Media Queries for Responsiveness --- */
-
-/* For tablets and small screens (width <= 768px) */
 @media (max-width: 768px) {
   .projects-grid {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -168,20 +165,25 @@ p {
     max-width: 90%;
   }
 
-  .popup-image {
+  .custom-popup-content {
+    width: 90%;
+    max-width: 600px;
+  }
+
+  .custom-popup-image {
     max-width: 250px;
   }
 
-  .popup-text h2 {
+  .custom-popup-text h2 {
     font-size: 1.5rem;
   }
 
-  .popup-content {
-    padding: 15px;
+  .popup-close {
+    top: 5px;
+    right: 10px;
   }
 }
 
-/* For mobile devices (width <= 480px) */
 @media (max-width: 480px) {
   h1 {
     font-size: 1.2rem;
@@ -197,5 +199,21 @@ p {
 
   .projects-grid {
     grid-template-columns: 1fr;
+  }
+
+  .custom-popup-content {
+    padding: 15px;
+  }
+
+  .custom-popup-text h2 {
+    font-size: 1.3rem;
+  }
+
+  .custom-popup-text p {
+    font-size: 0.9rem;
+  }
+
+  .custom-popup-image {
+    max-width: 220px;
   }
 }

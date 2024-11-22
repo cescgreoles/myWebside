@@ -7,6 +7,10 @@ import img12 from "../assets/raya.png";
 import img13 from "../assets/yourBank.png";
 import img14 from "../assets/maria-ts.png";
 import img15 from "../assets/caixabank.png";
+import img16 from "../assets/tailwind.png";
+import img17 from "../assets/cha.png";
+import img18 from "../assets/framer.png";
+import img19 from "../assets/query.png";
 
 export const CV = {
   portfolio: [
@@ -231,43 +235,221 @@ export const CV = {
       },
     ],
   },
+
   skills: {
     es: [
-      { name: "Git", img: "" },
-      { name: "Node.js", img: "" },
-      { name: "React.js", img: "" },
-      { name: "Next.js", img: "" },
-      { name: "JavaScript", img: "" },
-      { name: "TypeScript", img: "" },
-      { name: "HTML", img: "" },
-      { name: "CSS", img: "" },
-      { name: "SASS", img: "" },
-      { name: "Tailwind CSS", img: "" },
-      { name: "MongoDB", img: "" },
-      { name: "MySQL", img: "" },
-      { name: "React Hooks", img: "" },
-      { name: "Context API", img: "" },
-      { name: "API REST", img: "" },
+      {
+        name: "Git",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      },
+      {
+        name: "Node.js",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+      },
+      {
+        name: "React.js",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      },
+      {
+        name: "Next.js",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg",
+      },
+      {
+        name: "Firebase",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+      },
+      {
+        name: "JavaScript",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      },
+      {
+        name: "TypeScript",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      },
+      {
+        name: "HTML",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      },
+      {
+        name: "CSS",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      },
+      {
+        name: "Tailwind CSS",
+        img: img16,
+      },
+      {
+        name: "MongoDB",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+      },
+      {
+        name: "Vite",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg",
+      },
+      {
+        name: "Redux",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+      },
+      {
+        name: "Chakra UI",
+        img: img17,
+      },
+      {
+        name: "Material-UI (MUI)",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
+      },
+      {
+        name: "Axios",
+        img: "https://axios-http.com/assets/logo.svg",
+      },
+      {
+        name: "GraphQL",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
+      },
+      {
+        name: "Styled Components",
+        img: "https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png",
+      },
+      {
+        name: "Webpack",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg",
+      },
+      {
+        name: "Jest",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
+      },
+      {
+        name: "ESLint",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg",
+      },
+      {
+        name: "Prettier",
+        img: "https://prettier.io/icon.png",
+      },
+      {
+        name: "React Router",
+        img: "https://reactrouter.com/favicon-light.png",
+      },
+      {
+        name: "Framer Motion",
+        img: img18,
+      },
+      {
+        name: "React Query",
+        img: img19,
+      },
+      {
+        name: "Storybook",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg",
+      },
     ],
     en: [
-      { name: "Git", img: "" },
-      { name: "Node.js", img: "" },
-      { name: "React.js", img: "" },
-      { name: "Next.js", img: "" },
-      { name: "JavaScript", img: "" },
-      { name: "TypeScript", img: "" },
-      { name: "HTML", img: "" },
-      { name: "CSS", img: "" },
-      { name: "SASS", img: "" },
-      { name: "Tailwind CSS", img: "" },
-      { name: "MongoDB", img: "" },
-      { name: "MySQL", img: "" },
-      { name: "React Hooks", img: "" },
-      { name: "Context API", img: "" },
-      { name: "API REST", img: "" },
+      {
+        name: "Git",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      },
+      {
+        name: "Node.js",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+      },
+      {
+        name: "React.js",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      },
+      {
+        name: "Next.js",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg",
+      },
+      {
+        name: "Firebase",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+      },
+      {
+        name: "JavaScript",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      },
+      {
+        name: "TypeScript",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      },
+      {
+        name: "HTML",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      },
+      {
+        name: "CSS",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      },
+      {
+        name: "Tailwind CSS",
+        img: img16,
+      },
+      {
+        name: "MongoDB",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+      },
+      {
+        name: "Vite",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg",
+      },
+      {
+        name: "Redux",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+      },
+      {
+        name: "Chakra UI",
+        img: img17,
+      },
+      {
+        name: "Material-UI (MUI)",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
+      },
+      {
+        name: "Axios",
+        img: "https://axios-http.com/assets/logo.svg",
+      },
+      {
+        name: "GraphQL",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
+      },
+      {
+        name: "Styled Components",
+        img: "https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png", // Ícono oficial
+      },
+      {
+        name: "Webpack",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg",
+      },
+      {
+        name: "Jest",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
+      },
+      {
+        name: "ESLint",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg",
+      },
+      {
+        name: "Prettier",
+        img: "https://prettier.io/icon.png",
+      },
+      {
+        name: "React Router",
+        img: "https://reactrouter.com/favicon-light.png",
+      },
+      {
+        name: "Framer Motion",
+        img: img18,
+      },
+      {
+        name: "React Query",
+        img: img19,
+      },
+      {
+        name: "Storybook",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg",
+      },
     ],
   },
-
   languages: {
     es: [
       {

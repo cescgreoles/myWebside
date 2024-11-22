@@ -8,17 +8,13 @@ const AboutMe = () => {
 
   return (
     <div className="about-me">
-      <div className="section skills-section">
-        <h2 className="section-title">
-          {language === "es" ? "Habilidades" : "Skills"}
-        </h2>
-        <div className="skills-container">
-          {CV.skills[language].map((info, index) => (
-            <div className="card skill-card" key={index}>
-              <h3 className="card-title">{info.name}</h3>
-            </div>
-          ))}
-        </div>
+      <div className="skills-container">
+        {CV.skills[language].map((info, index) => (
+          <div className="card skill-card" key={index}>
+            <img className="skill-icon" src={info.img} alt={info.name} />
+            <p className="skill-name">{info.name}</p>
+          </div>
+        ))}
       </div>
 
       <div className="section work-section">

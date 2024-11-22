@@ -46,12 +46,12 @@ const Home = () => {
       </div>
 
       {selectedProject && (
-        <div className="popup open">
-          <div className="popup-content">
+        <div className="custom-popup open">
+          <div className="custom-popup-content">
             <span className="popup-close" onClick={closePopup}>
               &times;
             </span>
-            <div className="popup-inner">
+            <div className="custom-popup-inner">
               <img
                 src={selectedProject.img}
                 alt={
@@ -63,9 +63,9 @@ const Home = () => {
                     ? selectedProject.name1.en
                     : selectedProject.name.en
                 }
-                className="popup-image"
+                className="custom-popup-image"
               />
-              <div className="popup-text">
+              <div className="custom-popup-text">
                 <h2>
                   {language === "es"
                     ? selectedProject.name1

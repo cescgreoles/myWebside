@@ -1,13 +1,21 @@
 import { useContext, useState } from "react";
-import { NavLink, useNavigate } from "react-router-dom";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { Link, NavLink } from "react-router-dom";
+import { FaGithub, FaLinkedin, FaEnvelope, FaUser } from "react-icons/fa";
 import "../styles/Navbar.css";
 import { LanguageContext } from "../Context/LanguageContext";
+import ProfilePopup from "../components/ProfilePopup";
 
 function Navbar() {
   const { language } = useContext(LanguageContext);
-  const [selectedPage, setSelectedPage] = useState("/");
-  const navigate = useNavigate();
+  const [showPopup, setShowPopup] = useState(false);
+
+  const handleProfileClick = () => {
+    setShowPopup(true);
+  };
+
+  const handleClosePopup = () => {
+    setShowPopup(false);
+  };
 
   const translations = {
     en: { home: "Home", aboutMe: "About Me" },
@@ -16,19 +24,22 @@ function Navbar() {
 
   const t = translations[language] || translations["en"];
 
-  const handleSelectChange = (event) => {
-    const value = event.target.value;
-    setSelectedPage(value);
-    navigate(value);
-  };
-
   return (
     <nav className="navbar">
-      <div className="navbar-name">Francesc Greoles</div>
+      <div className="navbar-name">
+        <Link to="/" className="link">
+          Francesc Greoles
+        </Link>
+        <button onClick={handleProfileClick} className="profile-button">
+          <FaUser size={24} color="black" />
+        </button>
+
+        {showPopup && <ProfilePopup onClose={handleClosePopup} />}
+      </div>
 
       <div className="navbar-icons">
         <NavLink
-          href="https://github.com/cescgreoles"
+          to="https://github.com/cescgreoles"
           target="_blank"
           rel="noopener noreferrer"
           className="navbar-icon"
@@ -36,27 +47,32 @@ function Navbar() {
           <FaGithub />
         </NavLink>
         <NavLink
-          href="https://www.linkedin.com/in/francesc-greoles-baldrich-a215a5152/"
+          to="https://www.linkedin.com/in/francesc-greoles-baldrich-a215a5152/"
           target="_blank"
           rel="noopener noreferrer"
           className="navbar-icon"
         >
           <FaLinkedin />
         </NavLink>
-        <NavLink href="mailto:fgreoles@gmail.com" className="navbar-icon">
+        <NavLink to="mailto:fgreoles@gmail.com" className="navbar-icon">
           <FaEnvelope />
         </NavLink>
       </div>
 
       <div className="navbar-select-container">
-        <select
-          value={selectedPage}
-          onChange={handleSelectChange}
-          className="page-select"
+        <NavLink
+          to="/"
+          className={({ isActive }) => (isActive ? "active-link" : "")}
         >
-          <option value="/">{t.home}</option>
-          <option value="/aboutMe">{t.aboutMe}</option>
-        </select>
+          {t.home}
+        </NavLink>
+
+        <NavLink
+          to="/aboutMe"
+          className={({ isActive }) => (isActive ? "active-link" : "")}
+        >
+          {t.aboutMe}
+        </NavLink>
       </div>
     </nav>
   );
