@@ -302,18 +302,12 @@ export const CV = {
         name: "Axios",
         img: "https://axios-http.com/assets/logo.svg",
       },
-      {
-        name: "GraphQL",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
-      },
+
       {
         name: "Styled Components",
         img: "https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png",
       },
-      {
-        name: "Webpack",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg",
-      },
+
       {
         name: "Jest",
         img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
@@ -337,10 +331,6 @@ export const CV = {
       {
         name: "React Query",
         img: img19,
-      },
-      {
-        name: "Storybook",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg",
       },
     ],
     en: [
@@ -408,18 +398,12 @@ export const CV = {
         name: "Axios",
         img: "https://axios-http.com/assets/logo.svg",
       },
-      {
-        name: "GraphQL",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
-      },
+
       {
         name: "Styled Components",
         img: "https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png", // Ícono oficial
       },
-      {
-        name: "Webpack",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg",
-      },
+
       {
         name: "Jest",
         img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
@@ -443,10 +427,6 @@ export const CV = {
       {
         name: "React Query",
         img: img19,
-      },
-      {
-        name: "Storybook",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg",
       },
     ],
   },
