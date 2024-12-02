@@ -4,19 +4,9 @@
   display: flex;
   flex-direction: column;
   background-color: white;
-  width: 100%;
-  height: 100vh;
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
   overflow: hidden;
-}
-
-.content {
-  flex-grow: 1;
-  padding: 20px;
-  overflow-y: auto;
-  width: 100%;
-  box-sizing: border-box;
 }
 
 .language-toggle-button,
@@ -65,12 +55,6 @@
 
 @media (max-width: 768px) {
   .app {
-    padding: 10px;
-  }
-
-  .content {
-    margin: 0;
-    width: 100%;
     padding: 10px;
   }
 

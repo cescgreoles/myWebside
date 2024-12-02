@@ -1,72 +1,54 @@
 .about-me {
-  padding: 30px;
-}
-
-.section-title {
-  font-size: 2rem;
-  margin-bottom: 10px;
-}
-
-.section-intro {
-  color: #666;
-  margin-bottom: 20px;
   text-align: center;
+  padding: 40px;
+}
+
+.div-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
 }
 
 .grid-container {
   display: grid;
-  gap: 20px;
 }
 
 .grid-container.skills {
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 20px;
 }
 
 .grid-container.experience {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  display: grid;
 }
 
 .grid-container.education {
   grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  background-color: #f9f9f9;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #e0e0e0;
   border-radius: 10px;
-  padding: 15px;
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  min-height: 150px;
+  flex-grow: 1;
 }
 
 .icon {
   width: 30px;
   height: 30px;
-  margin: 0 auto 10px;
-}
-
-.name {
-  font-size: 0.9rem;
-  color: #333;
-  text-align: center;
-}
-
-.title {
-  text-align: center;
-  font-weight: bold;
   margin-bottom: 10px;
-}
-
-.date,
-.location,
-.description,
-.info {
-  font-size: 0.9rem;
-  color: #666;
 }
 
 @media (max-width: 600px) {
@@ -74,17 +56,12 @@
     grid-template-columns: 1fr;
   }
 
-  .card {
-    padding: 10px;
+  .grid-container.experience {
+    grid-template-columns: 1fr;
   }
 
   .icon {
     width: 40px;
     height: 40px;
-  }
-
-  .name,
-  .title {
-    font-size: 0.9rem;
   }
 }

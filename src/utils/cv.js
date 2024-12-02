@@ -1,12 +1,29 @@
 import img7 from "../assets/liga.png";
+import img27 from "../assets/laliga.png";
+
 import img8 from "../assets/memory.png";
+
 import img9 from "../assets/optica.png";
+import img21 from "../assets/optica1.png";
+
+import img24 from "../assets/makalu.png";
+import img25 from "../assets/makalu2.png";
+
 import img10 from "../assets/ideas.png";
+import img23 from "../assets/sofregit2.png";
+
 import img11 from "../assets/quiz.png";
+
 import img12 from "../assets/raya.png";
+
 import img13 from "../assets/yourBank.png";
+import img26 from "../assets/bank2.png";
+
 import img14 from "../assets/maria-ts.png";
+import img22 from "../assets/maria.png";
+
 import img15 from "../assets/caixabank.png";
+
 import img16 from "../assets/tailwind.png";
 import img17 from "../assets/cha.png";
 import img18 from "../assets/framer.png";
@@ -25,7 +42,7 @@ export const CV = {
         es: "Desarrollé esta página web utilizando Next.js, React, y TailwindCSS, asegurándome de optimizar al máximo las imágenes subidas a la carpeta public para mejorar el rendimiento y la experiencia del usuario. Además, implementé un sistema de contacto funcional con EmailJS. También configuré el dominio con Ionos y lo vinculé a Vercel para facilitar actualizaciones y despliegues futuros. El resultado es una web completamente responsiva, diseñada para resaltar el talento fotográfico de Maria Torrecillas.",
         en: "I developed this website using Next.js, React, and TailwindCSS, ensuring optimal image performance by hosting them in the public folder. Additionally, I implemented a functional contact form using EmailJS. The domain was configured with Ionos and linked to Vercel for seamless updates and deployments. The result is a fully responsive website designed to showcase Maria Torrecillas' photography talent.",
       },
-      img: img14,
+      img: [img14, img22],
     },
     {
       name1: {
@@ -37,7 +54,7 @@ export const CV = {
         es: "Un proyecto completo creado con ReactJS y CSS, donde me encargué tanto del diseño como del desarrollo del sitio. La página está optimizada para ser completamente responsiva, asegurando una experiencia fluida en dispositivos móviles y de escritorio. Incluye información detallada sobre productos y servicios ópticos, con un diseño limpio y profesional que refleja la identidad de la óptica.",
         en: "A complete project created with ReactJS and CSS, where I handled both the design and development of the site. The page is fully responsive, ensuring a smooth experience on mobile and desktop devices. It includes detailed information about optical products and services, with a clean and professional design reflecting the brand's identity.",
       },
-      img: img9,
+      img: [img9, img21],
     },
     {
       name1: {
@@ -49,7 +66,19 @@ export const CV = {
         es: "Obtuve el 8º lugar en un hackathon organizado por CaixaBank, donde desarrollé una solución funcional utilizando tecnologías avanzadas como React Hooks, UseContext, Routes, y stores (nanostores). Implementé un CRUD completo, trabajé en el diseño utilizando CSS, y creé una estructura sólida con React. Este proyecto fue un desafío que combinó creatividad, velocidad y habilidades técnicas para lograr un resultado competitivo.",
         en: "I secured 8th place in a CaixaBank hackathon, where I developed a functional solution using advanced technologies like React Hooks, UseContext, Routes, and stores (nanostores). I implemented a full CRUD, worked on the design using CSS, and created a robust structure with React. This project was a challenge that combined creativity, speed, and technical skills to achieve a competitive result.",
       },
-      img: img15,
+      img: [img15, img15],
+    },
+    {
+      name1: {
+        es: "Makalu Fitness",
+        en: "Fitness Makalu",
+      },
+      url: "https://makalu.vercel.app/",
+      description: {
+        es: "Página web informativa para un gimnasio, diseñada en Figma y desarrollada con React y CSS responsive. Utiliza componentes reutilizables, hooks para la gestión de estado y un formulario funcional con validación para contacto vía correo. Incluye secciones dinámicas de servicios, horarios y tarifas, asegurando un diseño optimizado y accesible.",
+        en: "Informative website for a gym, designed in Figma and developed with responsive React and CSS. It uses reusable components, hooks for state management, and a functional form with email contact validation. It includes dynamic sections for services, schedules, and rates, ensuring an optimized and accessible design.",
+      },
+      img: [img24, img25],
     },
     {
       name1: {
@@ -61,7 +90,7 @@ export const CV = {
         es: "Una plataforma bancaria en línea desarrollada con Next.js, ReactJS y Firebase. Permite a los usuarios gestionar sus finanzas personales con herramientas como cálculos de gastos, gestión de ingresos y gráficos de rendimiento financiero. También incluye funcionalidades avanzadas como apertura de cuentas bancarias, realización de pagos, presupuestos y reportes financieros. Diseñada para ser intuitiva y fácil de usar, la plataforma proporciona una experiencia bancaria digital completa y segura.",
         en: "An online banking platform developed with Next.js, ReactJS, and Firebase. It allows users to manage their personal finances with tools such as expense calculations, income management, and financial performance charts. It also includes advanced features like account opening, payments, budgeting, and financial reports. Designed to be intuitive and user-friendly, the platform provides a complete and secure digital banking experience.",
       },
-      img: img13,
+      img: [img13, img26],
     },
     {
       name1: {
@@ -73,7 +102,20 @@ export const CV = {
         es: "Este proyecto front-end, desarrollado con ReactJS y CSS, inspira a los usuarios con recetas e ideas para la cena. Su interfaz amigable permite buscar y filtrar recetas según diversos criterios, lo que lo hace ideal para planificar comidas diarias de manera rápida y eficiente. El diseño es limpio, intuitivo y completamente responsivo.",
         en: "This front-end project, developed with ReactJS and CSS, inspires users with recipes and dinner ideas. Its user-friendly interface allows for searching and filtering recipes based on various criteria, making it ideal for quick and efficient daily meal planning. The design is clean, intuitive, and fully responsive.",
       },
-      img: img10,
+      img: [img10, img23],
+    },
+
+    {
+      name1: {
+        es: "La Liga Team",
+        en: "La Liga Team",
+      },
+      url: "https://laligateam.vercel.app/",
+      description: {
+        es: "Desarrollé esta plataforma con ReactJS y una API externa para proporcionar información detallada sobre equipos y jugadores de La Liga española. La página organiza datos como estadísticas, resultados y alineaciones en tiempo real, ofreciendo una experiencia de usuario intuitiva y funcional. Trabajé tanto en la integración de la API como en el diseño de una interfaz atractiva y accesible.",
+        en: "I developed this platform with ReactJS and an external API to provide detailed information about teams and players from the Spanish La Liga. The page organizes data like statistics, results, and real-time lineups, offering an intuitive and functional user experience. I worked on both API integration and designing an attractive, accessible interface.",
+      },
+      img: [img7, img27],
     },
     {
       name1: {
@@ -85,7 +127,7 @@ export const CV = {
         es: "Un proyecto interactivo creado con React Vite para jugar al clásico juego de 3 en raya. Este desarrollo se centra en la mejora de la lógica de programación y la gestión de estados globales en React. Es perfecto para practicar habilidades de desarrollo front-end en un entorno divertido e interactivo.",
         en: "An interactive project created with React Vite to play the classic 3 in a Row game. This development focuses on improving programming logic and global state management in React. It is perfect for practicing front-end development skills in a fun and interactive environment.",
       },
-      img: img12,
+      img: [img12],
     },
     {
       name1: {
@@ -97,19 +139,7 @@ export const CV = {
         es: "Aplicación de cuestionarios centrada en el fútbol, desarrollada con ReactJS y CSS. Los usuarios pueden desafiar sus conocimientos sobre el deporte a través de preguntas variadas. Incluye una interfaz atractiva y opciones de retroalimentación instantánea, proporcionando una experiencia educativa y entretenida para los aficionados al fútbol.",
         en: "A football-focused quiz application developed with ReactJS and CSS. Users can challenge their knowledge of the sport through a variety of questions. It features an engaging interface and instant feedback options, providing an educational and entertaining experience for football fans.",
       },
-      img: img11,
-    },
-    {
-      name1: {
-        es: "La Liga Team",
-        en: "La Liga Team",
-      },
-      url: "https://laligateam.vercel.app/",
-      description: {
-        es: "Desarrollé esta plataforma con ReactJS y una API externa para proporcionar información detallada sobre equipos y jugadores de La Liga española. La página organiza datos como estadísticas, resultados y alineaciones en tiempo real, ofreciendo una experiencia de usuario intuitiva y funcional. Trabajé tanto en la integración de la API como en el diseño de una interfaz atractiva y accesible.",
-        en: "I developed this platform with ReactJS and an external API to provide detailed information about teams and players from the Spanish La Liga. The page organizes data like statistics, results, and real-time lineups, offering an intuitive and functional user experience. I worked on both API integration and designing an attractive, accessible interface.",
-      },
-      img: img7,
+      img: [img11],
     },
     {
       name1: {
@@ -121,7 +151,7 @@ export const CV = {
         es: "Un juego de memoria desarrollado con ReactJS para desafiar las habilidades cognitivas de los usuarios. Los jugadores deben emparejar cartas dentro de un límite de tiempo, añadiendo un elemento de presión. Este proyecto combina aprendizaje y diversión, ayudando a los usuarios a mejorar su retención y reconocimiento de patrones de manera interactiva.",
         en: "A memory game developed with ReactJS to challenge users' cognitive skills. Players must match cards within a time limit, adding an element of pressure. This project combines learning and fun, helping users improve retention and pattern recognition in an interactive way.",
       },
-      img: img8,
+      img: [img8],
     },
   ],
 
@@ -195,7 +225,7 @@ export const CV = {
         date: "03/2024 - 09/2024",
         where: "Sant Cugat del Vallés",
         description:
-          "Desarrollo de aplicaciones web utilizando JavaScript, HTML y CSS, Creación de interfaces dinámicas y responsivas. Refactorización de códigos JavaScript hacia React con Vite. Implementación de soluciones de software industrial diseñadas específicamente para empresas del sector. Aplicación de buenas prácticas en React, incluyendo la gestión de estado con hooks, diseño de componentes reutilizables, uso adecuado de contextos, y optimización del rendimiento mediante técnicas como la memoización y el lazy loading.Enfoque en la calidad del código mediante el uso de herramientas como ESLint, Prettier y pruebas automatizadas para garantizar aplicaciones mantenibles y eficientes.",
+          "Desarrollo de aplicaciones web utilizando JavaScript, HTML y CSS, Creación de interfaces dinámicas y responsivas. Refactorización de códigos JavaScript hacia React con Vite. Implementación de soluciones de software industrial diseñadas específicamente para empresas del sector. Aplicación de buenas prácticas en React, incluyendo la gestión de estado con hooks, diseño de componentes reutilizables, uso adecuado de contextos, y optimización del rendimiento mediante técnicas como la memoización y el lazy loading.",
       },
       {
         name: "Makalu Fitness",

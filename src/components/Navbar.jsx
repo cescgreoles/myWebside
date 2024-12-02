@@ -1,8 +1,8 @@
 import { useContext } from "react";
-import { Link, NavLink } from "react-router-dom";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-import "../styles/Navbar.css";
 import { LanguageContext } from "../Context/LanguageContext";
+import { Link } from "react-router-dom";
+import "../styles/Navbar.css";
 
 function Navbar() {
   const { language } = useContext(LanguageContext);
@@ -12,52 +12,45 @@ function Navbar() {
     es: { home: "Inicio", aboutMe: "Sobre Mí" },
   };
 
-  const t = translations[language] || translations["en"];
+  const t = translations[language];
 
   return (
     <nav className="navbar">
-      <div className="navbar-name">
-        <Link to="/" className="link">
-          Francesc Greoles
+      <div className="navbar-logo">
+        <Link to="/" className="navbar-link">
+          <h2>Francesc Greoles</h2>
         </Link>
       </div>
 
       <div className="navbar-icons">
-        <NavLink
-          to="https://github.com/cescgreoles"
+        <a
+          href="https://github.com/cescgreoles"
           target="_blank"
           rel="noopener noreferrer"
-          className="navbar-icon"
+          className="navbar-link"
         >
-          <FaGithub />
-        </NavLink>
-        <NavLink
-          to="https://www.linkedin.com/in/francesc-greoles-baldrich-a215a5152/"
+          <FaGithub className="icons" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/francesc-greoles-baldrich-a215a5152/"
           target="_blank"
           rel="noopener noreferrer"
-          className="navbar-icon"
+          className="navbar-link"
         >
-          <FaLinkedin />
-        </NavLink>
-        <NavLink to="mailto:fgreoles@gmail.com" className="navbar-icon">
-          <FaEnvelope />
-        </NavLink>
+          <FaLinkedin className="icons" />
+        </a>
+        <a href="mailto:fgreoles@gmail.com" className="navbar-link">
+          <FaEnvelope className="icons" />
+        </a>
       </div>
 
-      <div className="navbar-select-container">
-        <NavLink
-          to="/"
-          className={({ isActive }) => (isActive ? "active-link" : "")}
-        >
+      <div className="navbar-links">
+        <Link to="/" className="navbar-link">
           {t.home}
-        </NavLink>
-
-        <NavLink
-          to="/aboutMe"
-          className={({ isActive }) => (isActive ? "active-link" : "")}
-        >
+        </Link>
+        <Link to="/aboutMe" className="navbar-link">
           {t.aboutMe}
-        </NavLink>
+        </Link>
       </div>
     </nav>
   );

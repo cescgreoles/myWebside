@@ -1,93 +1,68 @@
 .navbar {
   display: flex;
-  padding: 10px;
-  border-bottom: 0.7px solid black;
+  justify-content: space-between;
   align-items: center;
-}
-
-.navbar-name {
-  font-size: 1.8rem;
-  font-weight: normal;
-  color: black;
-  margin-right: auto;
-}
-
-.link {
-  text-decoration: none;
-  color: black;
-}
-
-.link:hover {
-  text-decoration: underline;
-  color: black;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-bottom: 1px solid black;
 }
 
 .navbar-icons {
   display: flex;
-  gap: 20px;
-  justify-content: center;
-  flex-grow: 1;
+  flex-direction: row;
+  gap: 15px;
+}
+.navbar-links {
+  display: flex;
+  gap: 15px;
 }
 
-.navbar-icon {
-  color: black;
-  font-size: 1.8rem;
-  transition: color 0.3s ease;
+.icons {
+  font-size: 1.5rem;
 }
 
-.navbar-icon:hover {
-  color: gray;
-}
-
-.navbar-select-container a {
-  color: #000000;
+.navbar-link {
   text-decoration: none;
-  font-size: 1.2rem;
-  padding: 10px 15px;
+  color: black;
+  font-size: 1rem;
+  transition: color 0.3s;
 }
 
-.navbar-select-container a:hover {
+.navbar-link:hover {
   color: gray;
-}
-
-.navbar-select-container a.active-link {
-  color: gray;
-}
-
-.profile-button {
-  background-color: transparent;
-  font-size: 20px;
-  border: none;
-  cursor: pointer;
 }
 
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
-    padding: 15px 10px;
-    align-items: center;
     justify-content: center;
+    gap: 10px;
   }
 
-  .navbar-name {
-    margin: 0;
+  .navbar-logo {
+    margin-bottom: 10px;
   }
 
   .navbar-icons {
-    justify-content: center;
-    gap: 15px;
-  }
-
-  .navbar-select-container {
-    width: 100%;
     display: flex;
-    justify-content: center;
-    margin-top: 10px;
+    flex-direction: row;
+  }
+  .navbar-links {
+    flex-direction: row;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 10px;
   }
 
-  .page-select {
-    width: 80%;
-    min-width: 150px;
-    max-width: 100%;
+  .navbar-link {
+    font-size: 0.9rem;
+  }
+
+  .navbar-logo {
+    font-size: 1.2rem;
   }
 }
