@@ -43,10 +43,10 @@ function LanguageToggleButton() {
 
 function DownloadButton() {
   const handleDownload = () => {
-    const fileUrl = `/Francesc-2024-esp.pdf`;
+    const fileUrl = `/CV-Cesc-2024.pdf`;
     const link = document.createElement("a");
     link.href = fileUrl;
-    link.download = "Francesc-2024-esp.pdf";
+    link.download = "CV-Cesc-2024.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
