@@ -10,7 +10,8 @@ import img15 from "../assets/caixabank.png";
 import img16 from "../assets/tailwind.png";
 import img17 from "../assets/cha.png";
 import img18 from "../assets/framer.png";
-import img19 from "../assets/query.png";
+import img19 from "../assets/rest-api.png";
+import img20 from "../assets/canva.png";
 
 export const CV = {
   portfolio: [
@@ -191,49 +192,41 @@ export const CV = {
     es: [
       {
         name: "TAI Smart Factory",
-        date: "Febrero 2024 - Septiembre 2024",
+        date: "03/2024 - 09/2024",
         where: "Sant Cugat del Vallés",
         description:
-          "Durante mis 6 meses como desarrollador de software en TAI, mi rol principal consistió en diseñar e implementar múltiples interfaces que permitían a los clientes buscar y acceder a información vital sobre sus empresas, maquinaria y datos industriales. Además, me enfrenté al desafío de refactorizar una base de código heredada de JavaScript a React, mejorando significativamente el rendimiento y la mantenibilidad de las aplicaciones. Esta experiencia me permitió perfeccionar mis habilidades en desarrollo front-end y proporcionó valiosas perspectivas sobre cómo transformar los requisitos del cliente en interfaces de software eficientes y amigables.",
+          "Desarrollo de aplicaciones web utilizando JavaScript, HTML y CSS, Creación de interfaces dinámicas y responsivas. Refactorización de códigos JavaScript hacia React con Vite. Implementación de soluciones de software industrial diseñadas específicamente para empresas del sector. Aplicación de buenas prácticas en React, incluyendo la gestión de estado con hooks, diseño de componentes reutilizables, uso adecuado de contextos, y optimización del rendimiento mediante técnicas como la memoización y el lazy loading.Enfoque en la calidad del código mediante el uso de herramientas como ESLint, Prettier y pruebas automatizadas para garantizar aplicaciones mantenibles y eficientes.",
       },
       {
-        name: "Oriol Balaguer",
-        date: "Diciembre 2019 - Septiembre 2022",
-        where: "Panadería Oriol Balaguer, Barcelona",
+        name: "Makalu Fitness",
+        date: "2024",
+        where: "Barcelona",
         description:
-          "Trabajé como dependiente en la tienda, donde era responsable de organizar la producción, el consumo y las ventas.",
+          "Página web informativa para un gimnasio, diseñada en Figma y desarrollada con React y CSS responsive. Utiliza componentes reutilizables, hooks para la gestión de estado y un formulario funcional con validación para contacto vía correo. Incluye secciones dinámicas de servicios, horarios y tarifas, asegurando un diseño optimizado y accesible.",
       },
       {
-        name: "Oriol Balaguer",
-        date: "",
-        where: "Panadería Oriol Balaguer, Barcelona",
+        name: "Maria Torrecillas",
+        date: "2024",
+        where: "Barcelona",
         description:
-          "Control de redes sociales. Logística y venta de productos a las tiendas.",
+          "Un proyecto desarrollado con React, Next.js, y Tailwind CSS para crear una plataforma responsive que organiza y presenta un portafolio de proyectos fotográficos. ",
+      },
+      {
+        name: "Hackathon CaixaBank",
+        date: "10/2024",
+        where: "Barcelona",
+        description:
+          "Participación en la Hackathon de Caixabank, desarrollando un CRUD completo con React, utilizando hooks, Context API y componentes reutilizables para una solución eficiente. Implementación de un sistema de acceso de usuarios con funcionalidades dinámicas y escalables, logrando el 8º lugar entre 500 participantes.",
+      },
+      {
+        name: "Óptica Carrilet",
+        date: "2023",
+        where: "Hospital de Llobregat",
+        description:
+          "Página web informativa desarrollada con React, utilizando estados, componentes reutilizables y CSS para un diseño moderno y responsive, alojada en Vercel con un dominio personalizado. Su objetivo es presentar de manera clara los productos y servicios de la óptica Carrilet, mejorando la experiencia del usuario.",
       },
     ],
-    en: [
-      {
-        name: "TAI Smart Factory",
-        date: "February 2024 - September 2024",
-        where: "Sant Cugat del Vallés",
-        description:
-          "During my 6 months as a software developer at TAI, my main role consisted of designing and implementing multiple interfaces that allowed customers to search and access vital information about their companies, machinery and industrial data. In addition, I faced the challenge of refactoring a legacy code base from JavaScript to React, significantly improving application performance and maintainability. This experience allowed me to hone my front-end development skills and provided valuable insights on how to transform customer requirements into efficient and user-friendly software interfaces.",
-      },
-      {
-        name: "Oriol Balaguer",
-        date: "December 2019 - September 2022",
-        where: "Oriol Balaguer Bakery, Barcelona",
-        description:
-          "I worked as a sales clerk in the store where I was responsible for organizing production, consumption, and sales.",
-      },
-      {
-        name: "Oriol Balaguer",
-        date: "January 2023 - February 2024",
-        where: "Oriol Balaguer Bakery, Barcelona",
-        description:
-          "Social media management. Logistics and sales of products to stores.",
-      },
-    ],
+    en: [],
   },
 
   skills: {
@@ -283,6 +276,22 @@ export const CV = {
         img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
       },
       {
+        name: "MySQL",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+      },
+      {
+        name: "Express",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+      },
+      {
+        name: "Figma",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+      },
+      {
+        name: "Canva",
+        img: img20,
+      },
+      {
         name: "Vite",
         img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg",
       },
@@ -302,12 +311,6 @@ export const CV = {
         name: "Axios",
         img: "https://axios-http.com/assets/logo.svg",
       },
-
-      {
-        name: "Styled Components",
-        img: "https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png",
-      },
-
       {
         name: "Jest",
         img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
@@ -329,7 +332,7 @@ export const CV = {
         img: img18,
       },
       {
-        name: "React Query",
+        name: "REST API",
         img: img19,
       },
     ],
@@ -379,6 +382,22 @@ export const CV = {
         img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
       },
       {
+        name: "MySQL",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+      },
+      {
+        name: "Express",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+      },
+      {
+        name: "Figma",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+      },
+      {
+        name: "Canva",
+        img: img20,
+      },
+      {
         name: "Vite",
         img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg",
       },
@@ -398,12 +417,6 @@ export const CV = {
         name: "Axios",
         img: "https://axios-http.com/assets/logo.svg",
       },
-
-      {
-        name: "Styled Components",
-        img: "https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png", // Ícono oficial
-      },
-
       {
         name: "Jest",
         img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
@@ -425,11 +438,12 @@ export const CV = {
         img: img18,
       },
       {
-        name: "React Query",
-        img: img19,
+        name: "REST API",
+        img: img20,
       },
     ],
   },
+
   languages: {
     es: [
       {

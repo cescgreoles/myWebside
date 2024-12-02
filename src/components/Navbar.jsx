@@ -1,21 +1,11 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
-import { FaGithub, FaLinkedin, FaEnvelope, FaUser } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import "../styles/Navbar.css";
 import { LanguageContext } from "../Context/LanguageContext";
-import ProfilePopUp from "../components/ProfilePopUp";
 
 function Navbar() {
   const { language } = useContext(LanguageContext);
-  const [showPopup, setShowPopup] = useState(false);
-
-  const handleProfileClick = () => {
-    setShowPopup(true);
-  };
-
-  const handleClosePopup = () => {
-    setShowPopup(false);
-  };
 
   const translations = {
     en: { home: "Home", aboutMe: "About Me" },
@@ -30,11 +20,6 @@ function Navbar() {
         <Link to="/" className="link">
           Francesc Greoles
         </Link>
-        <button onClick={handleProfileClick} className="profile-button">
-          <FaUser size={24} color="black" />
-        </button>
-
-        {showPopup && <ProfilePopUp onClose={handleClosePopup} />}
       </div>
 
       <div className="navbar-icons">
