@@ -28,7 +28,9 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  border: 0.7px solid gray;
+  border-radius: 6px;
+  background-color: whitesmoke;
   gap: 20px;
   padding: 20px;
 }
@@ -49,6 +51,13 @@ button {
 }
 
 @media (min-width: 768px) {
+  .project-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+  }
   .project-images {
     display: flex;
     grid-template-columns: repeat(2, 1fr);

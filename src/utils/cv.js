@@ -39,8 +39,8 @@ export const CV = {
       },
       url: "http://www.mariatorrecillas.com",
       description: {
-        es: "Desarrollé esta página web utilizando Next.js, React, y TailwindCSS, asegurándome de optimizar al máximo las imágenes subidas a la carpeta public para mejorar el rendimiento y la experiencia del usuario. Además, implementé un sistema de contacto funcional con EmailJS. También configuré el dominio con Ionos y lo vinculé a Vercel para facilitar actualizaciones y despliegues futuros. El resultado es una web completamente responsiva, diseñada para resaltar el talento fotográfico de Maria Torrecillas.",
-        en: "I developed this website using Next.js, React, and TailwindCSS, ensuring optimal image performance by hosting them in the public folder. Additionally, I implemented a functional contact form using EmailJS. The domain was configured with Ionos and linked to Vercel for seamless updates and deployments. The result is a fully responsive website designed to showcase Maria Torrecillas' photography talent.",
+        es: "Un proyecto desarrollado con React, Next.js, y Tailwind CSS para crear una plataforma responsive que organiza y presenta un portafolio de proyectos fotográficos. ",
+        en: "A project developed with React, Next.js, and Tailwind CSS to create a responsive platform that organizes and showcases a portfolio of photographic projects.",
       },
       img: [img14, img22],
     },
@@ -51,8 +51,8 @@ export const CV = {
       },
       url: "https://www.opticacarrilet.com",
       description: {
-        es: "Un proyecto completo creado con ReactJS y CSS, donde me encargué tanto del diseño como del desarrollo del sitio. La página está optimizada para ser completamente responsiva, asegurando una experiencia fluida en dispositivos móviles y de escritorio. Incluye información detallada sobre productos y servicios ópticos, con un diseño limpio y profesional que refleja la identidad de la óptica.",
-        en: "A complete project created with ReactJS and CSS, where I handled both the design and development of the site. The page is fully responsive, ensuring a smooth experience on mobile and desktop devices. It includes detailed information about optical products and services, with a clean and professional design reflecting the brand's identity.",
+        es: "Página web informativa desarrollada con React, utilizando estados, componentes reutilizables y CSS para un diseño moderno y responsive, alojada en Vercel con un dominio personalizado. Su objetivo es presentar de manera clara los productos y servicios de la óptica Carrilet, mejorando la experiencia del usuario.",
+        en: "Informative website developed with React, using states, reusable components, and CSS for a modern and responsive design, hosted on Vercel with a custom domain. Its goal is to clearly present the products and services of Óptica Carrilet, improving the user experience.",
       },
       img: [img9, img21],
     },
@@ -63,8 +63,8 @@ export const CV = {
       },
       url: "",
       description: {
-        es: "Obtuve el 8º lugar en un hackathon organizado por CaixaBank, donde desarrollé una solución funcional utilizando tecnologías avanzadas como React Hooks, UseContext, Routes, y stores (nanostores). Implementé un CRUD completo, trabajé en el diseño utilizando CSS, y creé una estructura sólida con React. Este proyecto fue un desafío que combinó creatividad, velocidad y habilidades técnicas para lograr un resultado competitivo.",
-        en: "I secured 8th place in a CaixaBank hackathon, where I developed a functional solution using advanced technologies like React Hooks, UseContext, Routes, and stores (nanostores). I implemented a full CRUD, worked on the design using CSS, and created a robust structure with React. This project was a challenge that combined creativity, speed, and technical skills to achieve a competitive result.",
+        es: "Participación en la Hackathon de Caixabank, desarrollando un CRUD completo con React, utilizando hooks, Context API y componentes reutilizables para una solución eficiente. Implementación de un sistema de acceso de usuarios con funcionalidades dinámicas y escalables, logrando el 8º lugar entre 500 participantes.",
+        en: "Participation in the Caixabank Hackathon, developing a complete CRUD with React, using hooks, Context API, and reusable components for an efficient solution. Implementation of a user access system with dynamic and scalable features, achieving 8th place out of 500 participants.",
       },
       img: [img15, img15],
     },

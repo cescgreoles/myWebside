@@ -30,40 +30,42 @@ const Home = () => {
       </div>
 
       <h2>{language === "es" ? "Proyectos" : "Projects"}</h2>
+      <div className="project-container">
+        {" "}
+        {CV.portfolio.map((project, index) => (
+          <div
+            className="project-item"
+            key={index}
+            ref={projectRefs.current[index]}
+          >
+            <h3>{language === "es" ? project.name1.es : project.name1.en}</h3>
+            <div className="project-images">
+              {project.img.slice(0, 4).map((image, idx) => (
+                <img
+                  key={idx}
+                  src={image}
+                  alt={`${
+                    language === "es" ? project.name1.es : project.name1.en
+                  } ${idx + 1}`}
+                  className="image"
+                />
+              ))}
+            </div>
 
-      {CV.portfolio.map((project, index) => (
-        <div
-          className="project-item"
-          key={index}
-          ref={projectRefs.current[index]}
-        >
-          <h3>{language === "es" ? project.name1.es : project.name1.en}</h3>
-          <div className="project-images">
-            {project.img.slice(0, 4).map((image, idx) => (
-              <img
-                key={idx}
-                src={image}
-                alt={`${
-                  language === "es" ? project.name1.es : project.name1.en
-                } ${idx + 1}`}
-                className="image"
-              />
-            ))}
+            <p className="project-description">
+              {language === "es"
+                ? project.description.es
+                : project.description.en}
+            </p>
+
+            <a href={project.url} target="_blank" rel="noopener noreferrer">
+              <button>
+                {language === "es" ? "Ver proyecto" : "View project"}
+              </button>
+            </a>
           </div>
-
-          <p className="project-description">
-            {language === "es"
-              ? project.description.es
-              : project.description.en}
-          </p>
-
-          <a href={project.url} target="_blank" rel="noopener noreferrer">
-            <button>
-              {language === "es" ? "Ver proyecto" : "View project"}
-            </button>
-          </a>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };
