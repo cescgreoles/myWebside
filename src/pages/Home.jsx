@@ -21,6 +21,7 @@ const Home = () => {
           ? "Soy un Full Stack Developer con experiencia en la creación de soluciones tecnológicas alineadas con las necesidades de usuarios y empresas. Gracias a mis conocimientos en marketing digital, puedo desarrollar proyectos que no solo son funcionales, sino también efectivos en términos de estrategia. He trabajado en el desarrollo de sitios web para empresas, obtuve el 8º puesto en la Hackathon Caixabank entre 500 participantes y he trabajado en una empresa de software industrial con React. Me considero adaptable, comunicativo, creativo y de aprendizaje rápido."
           : "I am a Full Stack Developer with experience in creating technological solutions aligned with the needs of users and companies. Thanks to my knowledge in digital marketing, I can develop projects that are not only functional, but also effective in terms of strategy. I have worked on the development of websites for companies, I obtained the 8th place in the Caixabank Hackathon among 500 participants and I have worked in an industrial software company with React. I consider myself adaptable, communicative, creative and a fast learner."}
       </p>
+      <h2>{language === "es" ? "Mis Proyectos" : " My Projects"}</h2>
       <div className="section-buttons">
         {CV.portfolio.map((project, index) => (
           <button key={index} onClick={() => scrollToProject(index)}>
@@ -29,9 +30,7 @@ const Home = () => {
         ))}
       </div>
 
-      <h2>{language === "es" ? "Proyectos" : "Projects"}</h2>
       <div className="project-container">
-        {" "}
         {CV.portfolio.map((project, index) => (
           <div
             className="project-item"

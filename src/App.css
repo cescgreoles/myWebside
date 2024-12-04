@@ -3,7 +3,6 @@
 .app {
   display: flex;
   flex-direction: column;
-  background-color: white;
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
   overflow: hidden;
@@ -54,10 +53,6 @@
 }
 
 @media (max-width: 768px) {
-  .app {
-    padding: 10px;
-  }
-
   .language-toggle-button {
     font-size: 14px;
   }

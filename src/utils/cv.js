@@ -260,218 +260,190 @@ export const CV = {
   },
 
   skills: {
-    es: [
-      {
-        name: "Git",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-      },
-      {
-        name: "Node.js",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-      },
-      {
-        name: "React.js",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-      },
-      {
-        name: "Next.js",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg",
-      },
-      {
-        name: "Firebase",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
-      },
-      {
-        name: "JavaScript",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-      },
-      {
-        name: "TypeScript",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-      },
-      {
-        name: "HTML",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-      },
-      {
-        name: "CSS",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-      },
-      {
-        name: "Tailwind CSS",
-        img: img16,
-      },
-      {
-        name: "MongoDB",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-      },
-      {
-        name: "MySQL",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
-      },
-      {
-        name: "Express",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-      },
-      {
-        name: "Figma",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
-      },
-      {
-        name: "Canva",
-        img: img20,
-      },
-      {
-        name: "Vite",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg",
-      },
-      {
-        name: "Redux",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
-      },
-      {
-        name: "Chakra UI",
-        img: img17,
-      },
-      {
-        name: "Material-UI (MUI)",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
-      },
-      {
-        name: "Axios",
-        img: "https://axios-http.com/assets/logo.svg",
-      },
-      {
-        name: "Jest",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
-      },
-      {
-        name: "ESLint",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg",
-      },
-      {
-        name: "Prettier",
-        img: "https://prettier.io/icon.png",
-      },
-      {
-        name: "React Router",
-        img: "https://reactrouter.com/favicon-light.png",
-      },
-      {
-        name: "Framer Motion",
-        img: img18,
-      },
-      {
-        name: "REST API",
-        img: img19,
-      },
-    ],
-    en: [
-      {
-        name: "Git",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-      },
-      {
-        name: "Node.js",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-      },
-      {
-        name: "React.js",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-      },
-      {
-        name: "Next.js",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg",
-      },
-      {
-        name: "Firebase",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
-      },
-      {
-        name: "JavaScript",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-      },
-      {
-        name: "TypeScript",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-      },
-      {
-        name: "HTML",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-      },
-      {
-        name: "CSS",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-      },
-      {
-        name: "Tailwind CSS",
-        img: img16,
-      },
-      {
-        name: "MongoDB",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-      },
-      {
-        name: "MySQL",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
-      },
-      {
-        name: "Express",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-      },
-      {
-        name: "Figma",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
-      },
-      {
-        name: "Canva",
-        img: img20,
-      },
-      {
-        name: "Vite",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg",
-      },
-      {
-        name: "Redux",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
-      },
-      {
-        name: "Chakra UI",
-        img: img17,
-      },
-      {
-        name: "Material-UI (MUI)",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
-      },
-      {
-        name: "Axios",
-        img: "https://axios-http.com/assets/logo.svg",
-      },
-      {
-        name: "Jest",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
-      },
-      {
-        name: "ESLint",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg",
-      },
-      {
-        name: "Prettier",
-        img: "https://prettier.io/icon.png",
-      },
-      {
-        name: "React Router",
-        img: "https://reactrouter.com/favicon-light.png",
-      },
-      {
-        name: "Framer Motion",
-        img: img18,
-      },
-      {
-        name: "REST API",
-        img: img20,
-      },
-    ],
+    es: {
+      lenguajes: [
+        {
+          name: "JavaScript",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        },
+        {
+          name: "TypeScript",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        },
+        {
+          name: "HTML",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        },
+        {
+          name: "CSS",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+        },
+      ],
+      librerias: [
+        {
+          name: "React.js",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        },
+        {
+          name: "Next.js",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg",
+        },
+        {
+          name: "Redux",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+        },
+        {
+          name: "Tailwind CSS",
+          img: img16,
+        },
+        {
+          name: "Material-UI (MUI)",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
+        },
+        {
+          name: "Chakra UI",
+          img: img17,
+        },
+        {
+          name: "Axios",
+          img: "https://axios-http.com/assets/logo.svg",
+        },
+        {
+          name: "Framer Motion",
+          img: img18,
+        },
+      ],
+      herramientas: [
+        {
+          name: "Git",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+        },
+        {
+          name: "Firebase",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+        },
+        {
+          name: "MongoDB",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+        },
+        {
+          name: "MySQL",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+        },
+        {
+          name: "Vite",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg",
+        },
+        {
+          name: "ESLint",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg",
+        },
+        {
+          name: "Prettier",
+          img: "https://prettier.io/icon.png",
+        },
+        {
+          name: "Figma",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+        },
+        {
+          name: "Canva",
+          img: img20,
+        },
+      ],
+    },
+    en: {
+      lenguajes: [
+        {
+          name: "JavaScript",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        },
+        {
+          name: "TypeScript",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        },
+        {
+          name: "HTML",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        },
+        {
+          name: "CSS",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+        },
+      ],
+      librerias: [
+        {
+          name: "React.js",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        },
+        {
+          name: "Next.js",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg",
+        },
+        {
+          name: "Redux",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+        },
+        {
+          name: "Tailwind CSS",
+          img: img16,
+        },
+        {
+          name: "Material-UI (MUI)",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
+        },
+        {
+          name: "Chakra UI",
+          img: img17,
+        },
+        {
+          name: "Axios",
+          img: "https://axios-http.com/assets/logo.svg",
+        },
+        {
+          name: "Framer Motion",
+          img: img18,
+        },
+      ],
+      herramientas: [
+        {
+          name: "Git",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+        },
+        {
+          name: "Firebase",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+        },
+        {
+          name: "MongoDB",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+        },
+        {
+          name: "MySQL",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+        },
+        {
+          name: "Vite",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg",
+        },
+        {
+          name: "ESLint",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg",
+        },
+        {
+          name: "Prettier",
+          img: "https://prettier.io/icon.png",
+        },
+        {
+          name: "Figma",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+        },
+        {
+          name: "Canva",
+          img: img20,
+        },
+      ],
+    },
   },
 
   languages: {
