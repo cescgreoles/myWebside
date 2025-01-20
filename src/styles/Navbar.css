@@ -3,8 +3,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  border-bottom: 1px solid #95a5a6; /* Gris cálido para el borde */
-  background-color: #ecf0f1; /* Fondo claro del navbar */
+  border-bottom: 1px solid #95a5a6;
+  background-color: white;
 }
 
 .navbar-icons {
@@ -20,34 +20,34 @@
 
 .icons {
   font-size: 1.5rem;
-  color: #2c3e50; /* Azul oscuro para íconos */
+  color: #2c3e50;
   transition: color 0.3s;
 }
 
 .icons:hover {
-  color: #3498db; /* Azul principal al pasar el mouse */
+  color: black;
 }
 
 .navbar-link {
   text-decoration: none;
-  color: #2c3e50; /* Azul oscuro para los enlaces */
+  color: #2c3e50;
   font-size: 1rem;
   transition: color 0.3s;
 }
 
 .navbar-link:hover {
-  color: #3498db; /* Azul claro para hover */
+  color: black;
 }
 
 .navbar-logo {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #2c3e50; /* Azul oscuro para el logo */
+  color: #2c3e50;
   transition: color 0.3s;
 }
 
 .navbar-logo:hover {
-  color: #3498db; /* Azul claro para hover en el logo */
+  color: black;
 }
 
 @media (max-width: 768px) {

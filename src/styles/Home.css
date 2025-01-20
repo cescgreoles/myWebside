@@ -21,14 +21,11 @@ button {
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
-  background-color: #3498db;
-  color: white;
-  border: none;
+  color: black;
+  background-color: white;
   transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #2980b9;
+  border: none;
+  border: 1px solid black;
 }
 
 .project-container {
@@ -68,15 +65,6 @@ button:hover {
 
 .project-description {
   color: #7f8c8d;
-}
-
-a button {
-  background-color: #3498db;
-  color: white;
-}
-
-a button:hover {
-  background-color: #276d9c;
 }
 
 @media (min-width: 768px) {
